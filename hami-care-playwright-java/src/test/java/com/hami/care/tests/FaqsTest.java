@@ -132,8 +132,7 @@ public class FaqsTest extends BaseTest {
 
     @Test(priority = 8, description = "TC_FAQ_15 & TC_FAQ_16: Long text and special characters/XSS escaping")
     public void verifyLongTextAndSpecialCharactersFaq() {
-        String xssQuestion = "<script>alert('xss')</script> & "Quotes" — ₹100? #" + uniqueSuffix();
-        String longAnswer = "Detailed FAQ answer content for edge validation. ".repeat(15).trim();
+    String xssQuestion = "<script>alert('xss')</script> & \"Quotes\" — ₹100? #" + uniqueSuffix();        String longAnswer = "Detailed FAQ answer content for edge validation. ".repeat(15).trim();
 
         faqsPage.openCreateFaqModal()
                 .fillFaqForm(xssQuestion, longAnswer, null, "Active", "9999")
