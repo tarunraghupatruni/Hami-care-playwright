@@ -10,4 +10,7 @@
             <class name="com.hami.care.tests.FaqsTest"/>
         </classes>
     </test>
+    <listeners>
+    <listener class-name="com.hami.care.reporting.ExcelReportListener"/>
+</listeners>
 </suite>

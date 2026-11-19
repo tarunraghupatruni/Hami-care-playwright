@@ -5,7 +5,7 @@ import com.microsoft.playwright.Page;
 import com.microsoft.playwright.options.AriaRole;
 import com.microsoft.playwright.options.LoadState;
 import com.microsoft.playwright.options.SelectOption;
-
+import com.microsoft.playwright.options.WaitForSelectorState;
 import java.util.List;
 
 public class FaqsPage extends BasePage {
@@ -21,8 +21,10 @@ public class FaqsPage extends BasePage {
     public FaqsPage(Page page) {
         super(page);
         this.pageHeading = heading("FAQs Management");
-        this.createNewFaqButton = page.getByText("+ Create New FAQ");
-        this.searchInput = page.getByPlaceholder("Search questions or answers...");
+        this.createNewFaqButton = page.getByRole(AriaRole.BUTTON, new Page.GetByRoleOptions().setName("Create New FAQ"))
+        .or(page.getByRole(AriaRole.LINK, new Page.GetByRoleOptions().setName("Create New FAQ")))
+        .or(page.locator("button:has-text('Create New FAQ'), a:has-text('Create New FAQ')"))
+        .first();        this.searchInput = page.getByPlaceholder("Search questions or answers...");
         this.statusFilterSelect = page.locator("select").first();
         this.applyFiltersButton = button("Apply filters");
         this.clearButton = button("Clear");
@@ -40,9 +42,9 @@ public class FaqsPage extends BasePage {
     }
 
     public boolean areSummaryCardsVisible() {
-        return page.getByText("Total FAQs").isVisible()
-                && page.getByText("Active FAQs").isVisible()
-                && page.getByText("Inactive FAQs").isVisible();
+        return page.getByText("Total FAQs", new Page.GetByTextOptions().setExact(true)).isVisible()
+                && page.getByText("Active FAQs", new Page.GetByTextOptions().setExact(true)).isVisible()
+                && page.getByText("Inactive FAQs", new Page.GetByTextOptions().setExact(true)).isVisible();
     }
 
     public int getSummaryCardCount(String cardTitle) {
@@ -136,11 +138,14 @@ public class FaqsPage extends BasePage {
     }
 
     public FaqsPage submitFaqForm() {
-        Locator submitBtn = activeDialog().locator("button[type='submit']")
-                .or(activeDialog().getByRole(AriaRole.BUTTON, new Locator.GetByRoleOptions().setName("Save")))
-                .or(activeDialog().getByRole(AriaRole.BUTTON, new Locator.GetByRoleOptions().setName("Create")))
+        Locator dialog = activeDialog();
+        Locator submitBtn = dialog.locator("button[type='submit']")
+                .or(dialog.getByRole(AriaRole.BUTTON, new Locator.GetByRoleOptions().setName("Save")))
+                .or(dialog.getByRole(AriaRole.BUTTON, new Locator.GetByRoleOptions().setName("Update")))
+                .or(dialog.getByRole(AriaRole.BUTTON, new Locator.GetByRoleOptions().setName("Create")))
                 .first();
         submitBtn.click();
+        dialog.waitFor(new Locator.WaitForOptions().setState(WaitForSelectorState.HIDDEN));
         page.waitForLoadState(LoadState.NETWORKIDLE);
         return this;
     }
@@ -167,7 +172,14 @@ public class FaqsPage extends BasePage {
     }
 
     public boolean isFaqPresent(String questionText) {
-        return tableRows.filter(new Locator.FilterOptions().setHasText(questionText)).count() > 0;
+        try {
+            getFaqRow(questionText).waitFor(new Locator.WaitForOptions()
+                    .setState(WaitForSelectorState.VISIBLE)
+                    .setTimeout(5000));
+            return true;
+        } catch (Exception e) {
+            return false;
+        }
     }
 
     public String getFaqRowText(String questionText) {
@@ -179,26 +191,55 @@ public class FaqsPage extends BasePage {
         activeDialog().waitFor();
         return this;
     }
+    public int getFaqCount(String questionText) {
+        return tableRows.filter(new Locator.FilterOptions().setHasText(questionText)).count();
+    }
+
+    public FaqsPage rapidClickSubmitFaq(int clickCount) {
+        Locator dialog = activeDialog();
+        Locator submitBtn = dialog.locator("button[type='submit']")
+                .or(dialog.getByRole(AriaRole.BUTTON, new Locator.GetByRoleOptions().setName("Save")))
+                .or(dialog.getByRole(AriaRole.BUTTON, new Locator.GetByRoleOptions().setName("Create")))
+                .first();
+
+        for (int i = 0; i < clickCount; i++) {
+            try {
+                if (!dialog.isVisible() || submitBtn.isDisabled()) {
+                    break;
+                }
+                submitBtn.click(new Locator.ClickOptions().setForce(true).setTimeout(1000));
+            } catch (Exception ignored) {
+                // Expected if the modal closes or button detaches after the first click
+                break;
+            }
+        }
+
+        dialog.waitFor(new Locator.WaitForOptions().setState(WaitForSelectorState.HIDDEN));
+        page.waitForLoadState(LoadState.NETWORKIDLE);
+        return this;
+    }
 
     public FaqsPage deleteFaq(String questionText, boolean confirm) {
+        Locator allDeleteButtons = page.getByRole(AriaRole.BUTTON, new Page.GetByRoleOptions().setName("Delete"));
+        int beforeCount = allDeleteButtons.count();
+
         Locator row = getFaqRow(questionText);
         row.getByRole(AriaRole.BUTTON, new Locator.GetByRoleOptions().setName("Delete"))
                 .or(row.locator("button[title*='Delete'], button[aria-label*='Delete']"))
                 .first()
                 .click();
 
-        Locator confirmDialog = page.locator("[role='dialog']").last();
-        if (confirmDialog.isVisible()) {
-            if (confirm) {
-                confirmDialog.getByRole(AriaRole.BUTTON, new Locator.GetByRoleOptions().setName("Delete"))
-                        .or(confirmDialog.getByRole(AriaRole.BUTTON, new Locator.GetByRoleOptions().setName("Confirm")))
-                        .first()
-                        .click();
-                page.waitForLoadState(LoadState.NETWORKIDLE);
-            } else {
-                confirmDialog.getByRole(AriaRole.BUTTON, new Locator.GetByRoleOptions().setName("Cancel")).click();
-            }
+        page.waitForCondition(() -> allDeleteButtons.count() > beforeCount);
+
+        if (confirm) {
+            allDeleteButtons.last().click();
+        } else {
+            page.getByRole(AriaRole.BUTTON, new Page.GetByRoleOptions().setName("Cancel")).last().click();
         }
+
+        page.waitForCondition(() -> allDeleteButtons.count() <= beforeCount);
+        page.waitForLoadState(LoadState.NETWORKIDLE);
         return this;
     }
+
 }
