@@ -1,0 +1,1109 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Surefire suite</th></tr>
+<tr><td><a href="#t0">Surefire test</a></td><td class="num">0</td><td class="num attn">11</td><td class="num">0</td><td class="num attn">3</td><td class="num">218,054</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Surefire suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Surefire test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="11">com.hami.care.tests.SubscriptionPlansTest</td><td><a href="#m0">navigateToSubscriptions</a></td><td rowspan="11">1795070474877</td><td rowspan="11">15035</td></tr><tr class="failedeven"><td><a href="#m1">navigateToSubscriptions</a></td></tr><tr class="failedeven"><td><a href="#m2">navigateToSubscriptions</a></td></tr><tr class="failedeven"><td><a href="#m3">navigateToSubscriptions</a></td></tr><tr class="failedeven"><td><a href="#m4">navigateToSubscriptions</a></td></tr><tr class="failedeven"><td><a href="#m5">navigateToSubscriptions</a></td></tr><tr class="failedeven"><td><a href="#m6">navigateToSubscriptions</a></td></tr><tr class="failedeven"><td><a href="#m7">navigateToSubscriptions</a></td></tr><tr class="failedeven"><td><a href="#m8">navigateToSubscriptions</a></td></tr><tr class="failedeven"><td><a href="#m9">navigateToSubscriptions</a></td></tr><tr class="failedeven"><td><a href="#m10">navigateToSubscriptions</a></td></tr><tr><th colspan="4">Surefire test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="3">com.hami.care.tests.SubscriptionPlansTest</td><td><a href="#m11">verifyCreateAndEditActivePopularPlan</a></td><td rowspan="1">1795070428689</td><td rowspan="1">15013</td></tr><tr class="failedeven"><td><a href="#m12">verifyCreateInactiveNonPopularPlanWithZeroDiscount</a></td><td rowspan="1">1795070455237</td><td rowspan="1">15013</td></tr><tr class="failedeven"><td><a href="#m13">verifySubscriptionManagementPage</a></td><td rowspan="1">1795070412148</td><td rowspan="1">65</td></tr><tr><th colspan="4">Surefire test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="11">com.hami.care.tests.SubscriptionPlansTest</td><td><a href="#m14">verifyCancelCreateAndCancelEdit</a></td><td rowspan="1">1795070579779</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m15">verifyCreatePlanBoundaryMinimumValues</a></td><td rowspan="1">1795070583809</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m16">verifyCreatePlanDiscountExceedingPriceRejected</a></td><td rowspan="1">1795070524723</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m17">verifyCreatePlanEmptyRequiredFieldsBlocked</a></td><td rowspan="1">1795070508254</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m18">verifyCreatePlanNegativePriceRejected</a></td><td rowspan="1">1795070513718</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m19">verifyCreatePlanZeroDurationRejected</a></td><td rowspan="1">1795070536156</td><td rowspan="1">1</td></tr><tr class="skippedeven"><td><a href="#m20">verifyDuplicatePlanNameHandling</a></td><td rowspan="1">1795070592277</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m21">verifyEditPlanEmptyNameRejected</a></td><td rowspan="1">1795070572410</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m22">verifySearchAndFilterPlans</a></td><td rowspan="1">1795070489934</td><td rowspan="1">2</td></tr><tr class="skippedeven"><td><a href="#m23">verifySpecialCharactersAndLongDescription</a></td><td rowspan="1">1795070587931</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m24">verifyToggleStatusAndPopularInEdit</a></td><td rowspan="1">1795070596849</td><td rowspan="1">1</td></tr></tbody>
+</table>
+<h2>Surefire test</h2><h3 id="m0">com.hami.care.tests.SubscriptionPlansTest#navigateToSubscriptions</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">com.microsoft.playwright.TimeoutError: Error {
+  message=&apos;Timeout 15000ms exceeded.
+  name=&apos;TimeoutError
+  stack=&apos;TimeoutError: Timeout 15000ms exceeded.
+    at ProgressController.run (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\progress.js:75:26)
+    at Frame.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:521:23)
+    at FrameDispatcher.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\frameDispatcher.js:82:119)
+    at FrameDispatcher._handleCommand (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+-   - navigating to &quot;https://staging.hami.care/auth/login&quot;, waiting until &quot;load&quot;
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:52)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:132)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:118)
+	at com.microsoft.playwright.impl.FrameImpl.navigateImpl(FrameImpl.java:463)
+	at com.microsoft.playwright.impl.PageImpl.lambda$navigate$47(PageImpl.java:943)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:97)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:943)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:42)
+	at com.microsoft.playwright.Page.navigate(Page.java:5474)
+	at com.hami.care.pages.BasePage.navigateTo(BasePage.java:19)
+	at com.hami.care.pages.LoginPage.open(LoginPage.java:27)
+	at com.hami.care.base.BaseTest.loginAsAdmin(BaseTest.java:41)
+	at com.hami.care.tests.SubscriptionPlansTest.navigateToSubscriptions(SubscriptionPlansTest.java:17)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+Caused by: com.microsoft.playwright.TimeoutError: Error {
+  message=&apos;Timeout 15000ms exceeded.
+  name=&apos;TimeoutError
+  stack=&apos;TimeoutError: Timeout 15000ms exceeded.
+    at ProgressController.run (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\progress.js:75:26)
+    at Frame.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:521:23)
+    at FrameDispatcher.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\frameDispatcher.js:82:119)
+    at FrameDispatcher._handleCommand (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+-   - navigating to &quot;https://staging.hami.care/auth/login&quot;, waiting until &quot;load&quot;
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:254)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:130)
+	... 48 more
+... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.hami.care.tests.SubscriptionPlansTest#navigateToSubscriptions</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">com.microsoft.playwright.PlaywrightException: Error {
+  message=&apos;net::ERR_NAME_NOT_RESOLVED at https://staging.hami.care/auth/login
+  name=&apos;Error
+  stack=&apos;Error: net::ERR_NAME_NOT_RESOLVED at https://staging.hami.care/auth/login
+    at FrameSession._navigate (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\chromium\crPage.js:512:35)
+    at async Frame._gotoAction (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:540:28)
+}
+Call log:
+-   - navigating to &quot;https://staging.hami.care/auth/login&quot;, waiting until &quot;load&quot;
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:56)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:132)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:118)
+	at com.microsoft.playwright.impl.FrameImpl.navigateImpl(FrameImpl.java:463)
+	at com.microsoft.playwright.impl.PageImpl.lambda$navigate$47(PageImpl.java:943)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:97)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:943)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:42)
+	at com.microsoft.playwright.Page.navigate(Page.java:5474)
+	at com.hami.care.pages.BasePage.navigateTo(BasePage.java:19)
+	at com.hami.care.pages.LoginPage.open(LoginPage.java:27)
+	at com.hami.care.base.BaseTest.loginAsAdmin(BaseTest.java:41)
+	at com.hami.care.tests.SubscriptionPlansTest.navigateToSubscriptions(SubscriptionPlansTest.java:17)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+Caused by: com.microsoft.playwright.impl.DriverException: Error {
+  message=&apos;net::ERR_NAME_NOT_RESOLVED at https://staging.hami.care/auth/login
+  name=&apos;Error
+  stack=&apos;Error: net::ERR_NAME_NOT_RESOLVED at https://staging.hami.care/auth/login
+    at FrameSession._navigate (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\chromium\crPage.js:512:35)
+    at async Frame._gotoAction (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:540:28)
+}
+Call log:
+-   - navigating to &quot;https://staging.hami.care/auth/login&quot;, waiting until &quot;load&quot;
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:259)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:130)
+	... 48 more
+... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.hami.care.tests.SubscriptionPlansTest#navigateToSubscriptions</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">com.microsoft.playwright.PlaywrightException: Error {
+  message=&apos;net::ERR_INTERNET_DISCONNECTED at https://staging.hami.care/auth/login
+  name=&apos;Error
+  stack=&apos;Error: net::ERR_INTERNET_DISCONNECTED at https://staging.hami.care/auth/login
+    at FrameSession._navigate (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\chromium\crPage.js:512:35)
+    at async Frame._gotoAction (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:540:28)
+}
+Call log:
+-   - navigating to &quot;https://staging.hami.care/auth/login&quot;, waiting until &quot;load&quot;
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:56)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:132)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:118)
+	at com.microsoft.playwright.impl.FrameImpl.navigateImpl(FrameImpl.java:463)
+	at com.microsoft.playwright.impl.PageImpl.lambda$navigate$47(PageImpl.java:943)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:97)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:943)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:42)
+	at com.microsoft.playwright.Page.navigate(Page.java:5474)
+	at com.hami.care.pages.BasePage.navigateTo(BasePage.java:19)
+	at com.hami.care.pages.LoginPage.open(LoginPage.java:27)
+	at com.hami.care.base.BaseTest.loginAsAdmin(BaseTest.java:41)
+	at com.hami.care.tests.SubscriptionPlansTest.navigateToSubscriptions(SubscriptionPlansTest.java:17)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+Caused by: com.microsoft.playwright.impl.DriverException: Error {
+  message=&apos;net::ERR_INTERNET_DISCONNECTED at https://staging.hami.care/auth/login
+  name=&apos;Error
+  stack=&apos;Error: net::ERR_INTERNET_DISCONNECTED at https://staging.hami.care/auth/login
+    at FrameSession._navigate (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\chromium\crPage.js:512:35)
+    at async Frame._gotoAction (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:540:28)
+}
+Call log:
+-   - navigating to &quot;https://staging.hami.care/auth/login&quot;, waiting until &quot;load&quot;
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:259)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:130)
+	... 48 more
+... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.hami.care.tests.SubscriptionPlansTest#navigateToSubscriptions</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">com.microsoft.playwright.PlaywrightException: Error {
+  message=&apos;net::ERR_INTERNET_DISCONNECTED at https://staging.hami.care/auth/login
+  name=&apos;Error
+  stack=&apos;Error: net::ERR_INTERNET_DISCONNECTED at https://staging.hami.care/auth/login
+    at FrameSession._navigate (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\chromium\crPage.js:512:35)
+    at async Frame._gotoAction (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:540:28)
+}
+Call log:
+-   - navigating to &quot;https://staging.hami.care/auth/login&quot;, waiting until &quot;load&quot;
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:56)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:132)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:118)
+	at com.microsoft.playwright.impl.FrameImpl.navigateImpl(FrameImpl.java:463)
+	at com.microsoft.playwright.impl.PageImpl.lambda$navigate$47(PageImpl.java:943)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:97)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:943)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:42)
+	at com.microsoft.playwright.Page.navigate(Page.java:5474)
+	at com.hami.care.pages.BasePage.navigateTo(BasePage.java:19)
+	at com.hami.care.pages.LoginPage.open(LoginPage.java:27)
+	at com.hami.care.base.BaseTest.loginAsAdmin(BaseTest.java:41)
+	at com.hami.care.tests.SubscriptionPlansTest.navigateToSubscriptions(SubscriptionPlansTest.java:17)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+Caused by: com.microsoft.playwright.impl.DriverException: Error {
+  message=&apos;net::ERR_INTERNET_DISCONNECTED at https://staging.hami.care/auth/login
+  name=&apos;Error
+  stack=&apos;Error: net::ERR_INTERNET_DISCONNECTED at https://staging.hami.care/auth/login
+    at FrameSession._navigate (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\chromium\crPage.js:512:35)
+    at async Frame._gotoAction (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:540:28)
+}
+Call log:
+-   - navigating to &quot;https://staging.hami.care/auth/login&quot;, waiting until &quot;load&quot;
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:259)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:130)
+	... 48 more
+... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.hami.care.tests.SubscriptionPlansTest#navigateToSubscriptions</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">com.microsoft.playwright.PlaywrightException: Error {
+  message=&apos;net::ERR_INTERNET_DISCONNECTED at https://staging.hami.care/auth/login
+  name=&apos;Error
+  stack=&apos;Error: net::ERR_INTERNET_DISCONNECTED at https://staging.hami.care/auth/login
+    at FrameSession._navigate (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\chromium\crPage.js:512:35)
+    at runNextTicks (node:internal/process/task_queues:65:5)
+    at process.processImmediate (node:internal/timers:459:9)
+    at async Frame._gotoAction (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:540:28)
+}
+Call log:
+-   - navigating to &quot;https://staging.hami.care/auth/login&quot;, waiting until &quot;load&quot;
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:56)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:132)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:118)
+	at com.microsoft.playwright.impl.FrameImpl.navigateImpl(FrameImpl.java:463)
+	at com.microsoft.playwright.impl.PageImpl.lambda$navigate$47(PageImpl.java:943)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:97)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:943)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:42)
+	at com.microsoft.playwright.Page.navigate(Page.java:5474)
+	at com.hami.care.pages.BasePage.navigateTo(BasePage.java:19)
+	at com.hami.care.pages.LoginPage.open(LoginPage.java:27)
+	at com.hami.care.base.BaseTest.loginAsAdmin(BaseTest.java:41)
+	at com.hami.care.tests.SubscriptionPlansTest.navigateToSubscriptions(SubscriptionPlansTest.java:17)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+Caused by: com.microsoft.playwright.impl.DriverException: Error {
+  message=&apos;net::ERR_INTERNET_DISCONNECTED at https://staging.hami.care/auth/login
+  name=&apos;Error
+  stack=&apos;Error: net::ERR_INTERNET_DISCONNECTED at https://staging.hami.care/auth/login
+    at FrameSession._navigate (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\chromium\crPage.js:512:35)
+    at runNextTicks (node:internal/process/task_queues:65:5)
+    at process.processImmediate (node:internal/timers:459:9)
+    at async Frame._gotoAction (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:540:28)
+}
+Call log:
+-   - navigating to &quot;https://staging.hami.care/auth/login&quot;, waiting until &quot;load&quot;
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:259)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:130)
+	... 48 more
+... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.hami.care.tests.SubscriptionPlansTest#navigateToSubscriptions</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">com.microsoft.playwright.TimeoutError: Error {
+  message=&apos;Timeout 15000ms exceeded.
+  name=&apos;TimeoutError
+  stack=&apos;TimeoutError: Timeout 15000ms exceeded.
+    at ProgressController.run (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\progress.js:75:26)
+    at Frame.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:521:23)
+    at FrameDispatcher.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\frameDispatcher.js:82:119)
+    at FrameDispatcher._handleCommand (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+-   - navigating to &quot;https://staging.hami.care/auth/login&quot;, waiting until &quot;load&quot;
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:52)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:132)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:118)
+	at com.microsoft.playwright.impl.FrameImpl.navigateImpl(FrameImpl.java:463)
+	at com.microsoft.playwright.impl.PageImpl.lambda$navigate$47(PageImpl.java:943)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:97)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:943)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:42)
+	at com.microsoft.playwright.Page.navigate(Page.java:5474)
+	at com.hami.care.pages.BasePage.navigateTo(BasePage.java:19)
+	at com.hami.care.pages.LoginPage.open(LoginPage.java:27)
+	at com.hami.care.base.BaseTest.loginAsAdmin(BaseTest.java:41)
+	at com.hami.care.tests.SubscriptionPlansTest.navigateToSubscriptions(SubscriptionPlansTest.java:17)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+Caused by: com.microsoft.playwright.TimeoutError: Error {
+  message=&apos;Timeout 15000ms exceeded.
+  name=&apos;TimeoutError
+  stack=&apos;TimeoutError: Timeout 15000ms exceeded.
+    at ProgressController.run (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\progress.js:75:26)
+    at Frame.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:521:23)
+    at FrameDispatcher.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\frameDispatcher.js:82:119)
+    at FrameDispatcher._handleCommand (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+-   - navigating to &quot;https://staging.hami.care/auth/login&quot;, waiting until &quot;load&quot;
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:254)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:130)
+	... 48 more
+... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.hami.care.tests.SubscriptionPlansTest#navigateToSubscriptions</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">com.microsoft.playwright.PlaywrightException: Error {
+  message=&apos;net::ERR_INTERNET_DISCONNECTED at https://staging.hami.care/auth/login
+  name=&apos;Error
+  stack=&apos;Error: net::ERR_INTERNET_DISCONNECTED at https://staging.hami.care/auth/login
+    at FrameSession._navigate (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\chromium\crPage.js:512:35)
+    at async Frame._gotoAction (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:540:28)
+}
+Call log:
+-   - navigating to &quot;https://staging.hami.care/auth/login&quot;, waiting until &quot;load&quot;
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:56)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:132)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:118)
+	at com.microsoft.playwright.impl.FrameImpl.navigateImpl(FrameImpl.java:463)
+	at com.microsoft.playwright.impl.PageImpl.lambda$navigate$47(PageImpl.java:943)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:97)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:943)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:42)
+	at com.microsoft.playwright.Page.navigate(Page.java:5474)
+	at com.hami.care.pages.BasePage.navigateTo(BasePage.java:19)
+	at com.hami.care.pages.LoginPage.open(LoginPage.java:27)
+	at com.hami.care.base.BaseTest.loginAsAdmin(BaseTest.java:41)
+	at com.hami.care.tests.SubscriptionPlansTest.navigateToSubscriptions(SubscriptionPlansTest.java:17)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+Caused by: com.microsoft.playwright.impl.DriverException: Error {
+  message=&apos;net::ERR_INTERNET_DISCONNECTED at https://staging.hami.care/auth/login
+  name=&apos;Error
+  stack=&apos;Error: net::ERR_INTERNET_DISCONNECTED at https://staging.hami.care/auth/login
+    at FrameSession._navigate (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\chromium\crPage.js:512:35)
+    at async Frame._gotoAction (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:540:28)
+}
+Call log:
+-   - navigating to &quot;https://staging.hami.care/auth/login&quot;, waiting until &quot;load&quot;
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:259)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:130)
+	... 48 more
+... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.hami.care.tests.SubscriptionPlansTest#navigateToSubscriptions</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">com.microsoft.playwright.PlaywrightException: Error {
+  message=&apos;net::ERR_NETWORK_CHANGED at https://staging.hami.care/auth/login
+  name=&apos;Error
+  stack=&apos;Error: net::ERR_NETWORK_CHANGED at https://staging.hami.care/auth/login
+    at FrameSession._navigate (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\chromium\crPage.js:512:35)
+    at runNextTicks (node:internal/process/task_queues:65:5)
+    at process.processImmediate (node:internal/timers:459:9)
+    at async Frame._gotoAction (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:540:28)
+}
+Call log:
+-   - navigating to &quot;https://staging.hami.care/auth/login&quot;, waiting until &quot;load&quot;
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:56)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:132)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:118)
+	at com.microsoft.playwright.impl.FrameImpl.navigateImpl(FrameImpl.java:463)
+	at com.microsoft.playwright.impl.PageImpl.lambda$navigate$47(PageImpl.java:943)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:97)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:943)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:42)
+	at com.microsoft.playwright.Page.navigate(Page.java:5474)
+	at com.hami.care.pages.BasePage.navigateTo(BasePage.java:19)
+	at com.hami.care.pages.LoginPage.open(LoginPage.java:27)
+	at com.hami.care.base.BaseTest.loginAsAdmin(BaseTest.java:41)
+	at com.hami.care.tests.SubscriptionPlansTest.navigateToSubscriptions(SubscriptionPlansTest.java:17)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+Caused by: com.microsoft.playwright.impl.DriverException: Error {
+  message=&apos;net::ERR_NETWORK_CHANGED at https://staging.hami.care/auth/login
+  name=&apos;Error
+  stack=&apos;Error: net::ERR_NETWORK_CHANGED at https://staging.hami.care/auth/login
+    at FrameSession._navigate (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\chromium\crPage.js:512:35)
+    at runNextTicks (node:internal/process/task_queues:65:5)
+    at process.processImmediate (node:internal/timers:459:9)
+    at async Frame._gotoAction (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:540:28)
+}
+Call log:
+-   - navigating to &quot;https://staging.hami.care/auth/login&quot;, waiting until &quot;load&quot;
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:259)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:130)
+	... 48 more
+... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.hami.care.tests.SubscriptionPlansTest#navigateToSubscriptions</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">com.microsoft.playwright.PlaywrightException: Error {
+  message=&apos;net::ERR_INTERNET_DISCONNECTED at https://staging.hami.care/auth/login
+  name=&apos;Error
+  stack=&apos;Error: net::ERR_INTERNET_DISCONNECTED at https://staging.hami.care/auth/login
+    at FrameSession._navigate (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\chromium\crPage.js:512:35)
+    at async Frame._gotoAction (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:540:28)
+}
+Call log:
+-   - navigating to &quot;https://staging.hami.care/auth/login&quot;, waiting until &quot;load&quot;
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:56)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:132)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:118)
+	at com.microsoft.playwright.impl.FrameImpl.navigateImpl(FrameImpl.java:463)
+	at com.microsoft.playwright.impl.PageImpl.lambda$navigate$47(PageImpl.java:943)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:97)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:943)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:42)
+	at com.microsoft.playwright.Page.navigate(Page.java:5474)
+	at com.hami.care.pages.BasePage.navigateTo(BasePage.java:19)
+	at com.hami.care.pages.LoginPage.open(LoginPage.java:27)
+	at com.hami.care.base.BaseTest.loginAsAdmin(BaseTest.java:41)
+	at com.hami.care.tests.SubscriptionPlansTest.navigateToSubscriptions(SubscriptionPlansTest.java:17)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+Caused by: com.microsoft.playwright.impl.DriverException: Error {
+  message=&apos;net::ERR_INTERNET_DISCONNECTED at https://staging.hami.care/auth/login
+  name=&apos;Error
+  stack=&apos;Error: net::ERR_INTERNET_DISCONNECTED at https://staging.hami.care/auth/login
+    at FrameSession._navigate (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\chromium\crPage.js:512:35)
+    at async Frame._gotoAction (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:540:28)
+}
+Call log:
+-   - navigating to &quot;https://staging.hami.care/auth/login&quot;, waiting until &quot;load&quot;
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:259)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:130)
+	... 48 more
+... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.hami.care.tests.SubscriptionPlansTest#navigateToSubscriptions</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">com.microsoft.playwright.TimeoutError: Error {
+  message=&apos;Timeout 15000ms exceeded.
+  name=&apos;TimeoutError
+  stack=&apos;TimeoutError: Timeout 15000ms exceeded.
+    at ProgressController.run (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\progress.js:75:26)
+    at Frame.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:521:23)
+    at FrameDispatcher.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\frameDispatcher.js:82:119)
+    at FrameDispatcher._handleCommand (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+-   - navigating to &quot;https://staging.hami.care/auth/login&quot;, waiting until &quot;load&quot;
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:52)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:132)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:118)
+	at com.microsoft.playwright.impl.FrameImpl.navigateImpl(FrameImpl.java:463)
+	at com.microsoft.playwright.impl.PageImpl.lambda$navigate$47(PageImpl.java:943)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:97)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:943)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:42)
+	at com.microsoft.playwright.Page.navigate(Page.java:5474)
+	at com.hami.care.pages.BasePage.navigateTo(BasePage.java:19)
+	at com.hami.care.pages.LoginPage.open(LoginPage.java:27)
+	at com.hami.care.base.BaseTest.loginAsAdmin(BaseTest.java:41)
+	at com.hami.care.tests.SubscriptionPlansTest.navigateToSubscriptions(SubscriptionPlansTest.java:17)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+Caused by: com.microsoft.playwright.TimeoutError: Error {
+  message=&apos;Timeout 15000ms exceeded.
+  name=&apos;TimeoutError
+  stack=&apos;TimeoutError: Timeout 15000ms exceeded.
+    at ProgressController.run (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\progress.js:75:26)
+    at Frame.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:521:23)
+    at FrameDispatcher.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\frameDispatcher.js:82:119)
+    at FrameDispatcher._handleCommand (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+-   - navigating to &quot;https://staging.hami.care/auth/login&quot;, waiting until &quot;load&quot;
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:254)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:130)
+	... 48 more
+... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">com.hami.care.tests.SubscriptionPlansTest#navigateToSubscriptions</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">com.microsoft.playwright.PlaywrightException: Error {
+  message=&apos;net::ERR_NETWORK_CHANGED at https://staging.hami.care/auth/login
+  name=&apos;Error
+  stack=&apos;Error: net::ERR_NETWORK_CHANGED at https://staging.hami.care/auth/login
+    at FrameSession._navigate (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\chromium\crPage.js:512:35)
+    at async Frame._gotoAction (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:540:28)
+}
+Call log:
+-   - navigating to &quot;https://staging.hami.care/auth/login&quot;, waiting until &quot;load&quot;
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:56)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:132)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:118)
+	at com.microsoft.playwright.impl.FrameImpl.navigateImpl(FrameImpl.java:463)
+	at com.microsoft.playwright.impl.PageImpl.lambda$navigate$47(PageImpl.java:943)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:97)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:943)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:42)
+	at com.microsoft.playwright.Page.navigate(Page.java:5474)
+	at com.hami.care.pages.BasePage.navigateTo(BasePage.java:19)
+	at com.hami.care.pages.LoginPage.open(LoginPage.java:27)
+	at com.hami.care.base.BaseTest.loginAsAdmin(BaseTest.java:41)
+	at com.hami.care.tests.SubscriptionPlansTest.navigateToSubscriptions(SubscriptionPlansTest.java:17)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+Caused by: com.microsoft.playwright.impl.DriverException: Error {
+  message=&apos;net::ERR_NETWORK_CHANGED at https://staging.hami.care/auth/login
+  name=&apos;Error
+  stack=&apos;Error: net::ERR_NETWORK_CHANGED at https://staging.hami.care/auth/login
+    at FrameSession._navigate (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\chromium\crPage.js:512:35)
+    at async Frame._gotoAction (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:540:28)
+}
+Call log:
+-   - navigating to &quot;https://staging.hami.care/auth/login&quot;, waiting until &quot;load&quot;
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:259)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:130)
+	... 48 more
+... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">com.hami.care.tests.SubscriptionPlansTest#verifyCreateAndEditActivePopularPlan</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">com.microsoft.playwright.TimeoutError: Error {
+  message=&apos;Timeout 15000ms exceeded.
+  name=&apos;TimeoutError
+  stack=&apos;TimeoutError: Timeout 15000ms exceeded.
+    at ProgressController.run (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\progress.js:75:26)
+    at Frame.click (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:1022:23)
+    at FrameDispatcher.click (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\frameDispatcher.js:158:30)
+    at FrameDispatcher._handleCommand (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+-   - waiting for getByText(&quot;+ Add Subscription&quot;)
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:52)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:132)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:118)
+	at com.microsoft.playwright.impl.FrameImpl.clickImpl(FrameImpl.java:252)
+	at com.microsoft.playwright.impl.FrameImpl.lambda$click$8(FrameImpl.java:243)
+	at com.microsoft.playwright.impl.LoggingSupport.lambda$withLogging$0(LoggingSupport.java:36)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:97)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:35)
+	at com.microsoft.playwright.impl.FrameImpl.click(FrameImpl.java:243)
+	at com.microsoft.playwright.impl.LocatorImpl.click(LocatorImpl.java:175)
+	at com.microsoft.playwright.Locator.click(Locator.java:2493)
+	at com.hami.care.pages.SubscriptionPlansPage.clickAddSubscription(SubscriptionPlansPage.java:83)
+	at com.hami.care.tests.SubscriptionPlansTest.verifyCreateAndEditActivePopularPlan(SubscriptionPlansTest.java:43)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+Caused by: com.microsoft.playwright.TimeoutError: Error {
+  message=&apos;Timeout 15000ms exceeded.
+  name=&apos;TimeoutError
+  stack=&apos;TimeoutError: Timeout 15000ms exceeded.
+    at ProgressController.run (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\progress.js:75:26)
+    at Frame.click (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:1022:23)
+    at FrameDispatcher.click (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\frameDispatcher.js:158:30)
+    at FrameDispatcher._handleCommand (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+-   - waiting for getByText(&quot;+ Add Subscription&quot;)
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:254)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:130)
+	... 44 more
+... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">com.hami.care.tests.SubscriptionPlansTest#verifyCreateInactiveNonPopularPlanWithZeroDiscount</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">com.microsoft.playwright.TimeoutError: Error {
+  message=&apos;Timeout 15000ms exceeded.
+  name=&apos;TimeoutError
+  stack=&apos;TimeoutError: Timeout 15000ms exceeded.
+    at ProgressController.run (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\progress.js:75:26)
+    at Frame.click (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:1022:23)
+    at FrameDispatcher.click (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\frameDispatcher.js:158:30)
+    at FrameDispatcher._handleCommand (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+-   - waiting for getByText(&quot;+ Add Subscription&quot;)
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:52)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:132)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:118)
+	at com.microsoft.playwright.impl.FrameImpl.clickImpl(FrameImpl.java:252)
+	at com.microsoft.playwright.impl.FrameImpl.lambda$click$8(FrameImpl.java:243)
+	at com.microsoft.playwright.impl.LoggingSupport.lambda$withLogging$0(LoggingSupport.java:36)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:97)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:35)
+	at com.microsoft.playwright.impl.FrameImpl.click(FrameImpl.java:243)
+	at com.microsoft.playwright.impl.LocatorImpl.click(LocatorImpl.java:175)
+	at com.microsoft.playwright.Locator.click(Locator.java:2493)
+	at com.hami.care.pages.SubscriptionPlansPage.clickAddSubscription(SubscriptionPlansPage.java:83)
+	at com.hami.care.tests.SubscriptionPlansTest.verifyCreateInactiveNonPopularPlanWithZeroDiscount(SubscriptionPlansTest.java:87)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+Caused by: com.microsoft.playwright.TimeoutError: Error {
+  message=&apos;Timeout 15000ms exceeded.
+  name=&apos;TimeoutError
+  stack=&apos;TimeoutError: Timeout 15000ms exceeded.
+    at ProgressController.run (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\progress.js:75:26)
+    at Frame.click (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:1022:23)
+    at FrameDispatcher.click (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\frameDispatcher.js:158:30)
+    at FrameDispatcher._handleCommand (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+-   - waiting for getByText(&quot;+ Add Subscription&quot;)
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:254)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:130)
+	... 44 more
+... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">com.hami.care.tests.SubscriptionPlansTest#verifySubscriptionManagementPage</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Subscription Management page should load expected [true] but found [false]
+	at com.hami.care.tests.SubscriptionPlansTest.verifySubscriptionManagementPage(SubscriptionPlansTest.java:29)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">com.hami.care.tests.SubscriptionPlansTest#verifyCancelCreateAndCancelEdit</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">com.microsoft.playwright.TimeoutError: Error {
+  message=&apos;Timeout 15000ms exceeded.
+  name=&apos;TimeoutError
+  stack=&apos;TimeoutError: Timeout 15000ms exceeded.
+    at ProgressController.run (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\progress.js:75:26)
+    at Frame.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:521:23)
+    at FrameDispatcher.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\frameDispatcher.js:82:119)
+    at FrameDispatcher._handleCommand (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+-   - navigating to &quot;https://staging.hami.care/auth/login&quot;, waiting until &quot;load&quot;
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:52)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:132)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:118)
+	at com.microsoft.playwright.impl.FrameImpl.navigateImpl(FrameImpl.java:463)
+	at com.microsoft.playwright.impl.PageImpl.lambda$navigate$47(PageImpl.java:943)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:97)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:943)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:42)
+	at com.microsoft.playwright.Page.navigate(Page.java:5474)
+	at com.hami.care.pages.BasePage.navigateTo(BasePage.java:19)
+	at com.hami.care.pages.LoginPage.open(LoginPage.java:27)
+	at com.hami.care.base.BaseTest.loginAsAdmin(BaseTest.java:41)
+	at com.hami.care.tests.SubscriptionPlansTest.navigateToSubscriptions(SubscriptionPlansTest.java:17)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+Caused by: com.microsoft.playwright.TimeoutError: Error {
+  message=&apos;Timeout 15000ms exceeded.
+  name=&apos;TimeoutError
+  stack=&apos;TimeoutError: Timeout 15000ms exceeded.
+    at ProgressController.run (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\progress.js:75:26)
+    at Frame.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:521:23)
+    at FrameDispatcher.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\frameDispatcher.js:82:119)
+    at FrameDispatcher._handleCommand (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+-   - navigating to &quot;https://staging.hami.care/auth/login&quot;, waiting until &quot;load&quot;
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:254)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:130)
+	... 48 more
+... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">com.hami.care.tests.SubscriptionPlansTest#verifyCreatePlanBoundaryMinimumValues</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">com.microsoft.playwright.TimeoutError: Error {
+  message=&apos;Timeout 15000ms exceeded.
+  name=&apos;TimeoutError
+  stack=&apos;TimeoutError: Timeout 15000ms exceeded.
+    at ProgressController.run (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\progress.js:75:26)
+    at Frame.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:521:23)
+    at FrameDispatcher.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\frameDispatcher.js:82:119)
+    at FrameDispatcher._handleCommand (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+-   - navigating to &quot;https://staging.hami.care/auth/login&quot;, waiting until &quot;load&quot;
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:52)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:132)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:118)
+	at com.microsoft.playwright.impl.FrameImpl.navigateImpl(FrameImpl.java:463)
+	at com.microsoft.playwright.impl.PageImpl.lambda$navigate$47(PageImpl.java:943)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:97)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:943)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:42)
+	at com.microsoft.playwright.Page.navigate(Page.java:5474)
+	at com.hami.care.pages.BasePage.navigateTo(BasePage.java:19)
+	at com.hami.care.pages.LoginPage.open(LoginPage.java:27)
+	at com.hami.care.base.BaseTest.loginAsAdmin(BaseTest.java:41)
+	at com.hami.care.tests.SubscriptionPlansTest.navigateToSubscriptions(SubscriptionPlansTest.java:17)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+Caused by: com.microsoft.playwright.TimeoutError: Error {
+  message=&apos;Timeout 15000ms exceeded.
+  name=&apos;TimeoutError
+  stack=&apos;TimeoutError: Timeout 15000ms exceeded.
+    at ProgressController.run (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\progress.js:75:26)
+    at Frame.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:521:23)
+    at FrameDispatcher.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\frameDispatcher.js:82:119)
+    at FrameDispatcher._handleCommand (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+-   - navigating to &quot;https://staging.hami.care/auth/login&quot;, waiting until &quot;load&quot;
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:254)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:130)
+	... 48 more
+... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m16">com.hami.care.tests.SubscriptionPlansTest#verifyCreatePlanDiscountExceedingPriceRejected</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">com.microsoft.playwright.TimeoutError: Error {
+  message=&apos;Timeout 15000ms exceeded.
+  name=&apos;TimeoutError
+  stack=&apos;TimeoutError: Timeout 15000ms exceeded.
+    at ProgressController.run (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\progress.js:75:26)
+    at Frame.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:521:23)
+    at FrameDispatcher.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\frameDispatcher.js:82:119)
+    at FrameDispatcher._handleCommand (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+-   - navigating to &quot;https://staging.hami.care/auth/login&quot;, waiting until &quot;load&quot;
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:52)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:132)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:118)
+	at com.microsoft.playwright.impl.FrameImpl.navigateImpl(FrameImpl.java:463)
+	at com.microsoft.playwright.impl.PageImpl.lambda$navigate$47(PageImpl.java:943)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:97)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:943)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:42)
+	at com.microsoft.playwright.Page.navigate(Page.java:5474)
+	at com.hami.care.pages.BasePage.navigateTo(BasePage.java:19)
+	at com.hami.care.pages.LoginPage.open(LoginPage.java:27)
+	at com.hami.care.base.BaseTest.loginAsAdmin(BaseTest.java:41)
+	at com.hami.care.tests.SubscriptionPlansTest.navigateToSubscriptions(SubscriptionPlansTest.java:17)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+Caused by: com.microsoft.playwright.TimeoutError: Error {
+  message=&apos;Timeout 15000ms exceeded.
+  name=&apos;TimeoutError
+  stack=&apos;TimeoutError: Timeout 15000ms exceeded.
+    at ProgressController.run (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\progress.js:75:26)
+    at Frame.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:521:23)
+    at FrameDispatcher.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\frameDispatcher.js:82:119)
+    at FrameDispatcher._handleCommand (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+-   - navigating to &quot;https://staging.hami.care/auth/login&quot;, waiting until &quot;load&quot;
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:254)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:130)
+	... 48 more
+... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m17">com.hami.care.tests.SubscriptionPlansTest#verifyCreatePlanEmptyRequiredFieldsBlocked</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">com.microsoft.playwright.TimeoutError: Error {
+  message=&apos;Timeout 15000ms exceeded.
+  name=&apos;TimeoutError
+  stack=&apos;TimeoutError: Timeout 15000ms exceeded.
+    at ProgressController.run (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\progress.js:75:26)
+    at Frame.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:521:23)
+    at FrameDispatcher.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\frameDispatcher.js:82:119)
+    at FrameDispatcher._handleCommand (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+-   - navigating to &quot;https://staging.hami.care/auth/login&quot;, waiting until &quot;load&quot;
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:52)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:132)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:118)
+	at com.microsoft.playwright.impl.FrameImpl.navigateImpl(FrameImpl.java:463)
+	at com.microsoft.playwright.impl.PageImpl.lambda$navigate$47(PageImpl.java:943)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:97)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:943)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:42)
+	at com.microsoft.playwright.Page.navigate(Page.java:5474)
+	at com.hami.care.pages.BasePage.navigateTo(BasePage.java:19)
+	at com.hami.care.pages.LoginPage.open(LoginPage.java:27)
+	at com.hami.care.base.BaseTest.loginAsAdmin(BaseTest.java:41)
+	at com.hami.care.tests.SubscriptionPlansTest.navigateToSubscriptions(SubscriptionPlansTest.java:17)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+Caused by: com.microsoft.playwright.TimeoutError: Error {
+  message=&apos;Timeout 15000ms exceeded.
+  name=&apos;TimeoutError
+  stack=&apos;TimeoutError: Timeout 15000ms exceeded.
+    at ProgressController.run (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\progress.js:75:26)
+    at Frame.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:521:23)
+    at FrameDispatcher.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\frameDispatcher.js:82:119)
+    at FrameDispatcher._handleCommand (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+-   - navigating to &quot;https://staging.hami.care/auth/login&quot;, waiting until &quot;load&quot;
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:254)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:130)
+	... 48 more
+... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m18">com.hami.care.tests.SubscriptionPlansTest#verifyCreatePlanNegativePriceRejected</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">com.microsoft.playwright.TimeoutError: Error {
+  message=&apos;Timeout 15000ms exceeded.
+  name=&apos;TimeoutError
+  stack=&apos;TimeoutError: Timeout 15000ms exceeded.
+    at ProgressController.run (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\progress.js:75:26)
+    at Frame.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:521:23)
+    at FrameDispatcher.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\frameDispatcher.js:82:119)
+    at FrameDispatcher._handleCommand (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+-   - navigating to &quot;https://staging.hami.care/auth/login&quot;, waiting until &quot;load&quot;
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:52)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:132)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:118)
+	at com.microsoft.playwright.impl.FrameImpl.navigateImpl(FrameImpl.java:463)
+	at com.microsoft.playwright.impl.PageImpl.lambda$navigate$47(PageImpl.java:943)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:97)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:943)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:42)
+	at com.microsoft.playwright.Page.navigate(Page.java:5474)
+	at com.hami.care.pages.BasePage.navigateTo(BasePage.java:19)
+	at com.hami.care.pages.LoginPage.open(LoginPage.java:27)
+	at com.hami.care.base.BaseTest.loginAsAdmin(BaseTest.java:41)
+	at com.hami.care.tests.SubscriptionPlansTest.navigateToSubscriptions(SubscriptionPlansTest.java:17)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+Caused by: com.microsoft.playwright.TimeoutError: Error {
+  message=&apos;Timeout 15000ms exceeded.
+  name=&apos;TimeoutError
+  stack=&apos;TimeoutError: Timeout 15000ms exceeded.
+    at ProgressController.run (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\progress.js:75:26)
+    at Frame.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:521:23)
+    at FrameDispatcher.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\frameDispatcher.js:82:119)
+    at FrameDispatcher._handleCommand (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+-   - navigating to &quot;https://staging.hami.care/auth/login&quot;, waiting until &quot;load&quot;
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:254)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:130)
+	... 48 more
+... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m19">com.hami.care.tests.SubscriptionPlansTest#verifyCreatePlanZeroDurationRejected</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">com.microsoft.playwright.TimeoutError: Error {
+  message=&apos;Timeout 15000ms exceeded.
+  name=&apos;TimeoutError
+  stack=&apos;TimeoutError: Timeout 15000ms exceeded.
+    at ProgressController.run (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\progress.js:75:26)
+    at Frame.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:521:23)
+    at FrameDispatcher.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\frameDispatcher.js:82:119)
+    at FrameDispatcher._handleCommand (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+-   - navigating to &quot;https://staging.hami.care/auth/login&quot;, waiting until &quot;load&quot;
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:52)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:132)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:118)
+	at com.microsoft.playwright.impl.FrameImpl.navigateImpl(FrameImpl.java:463)
+	at com.microsoft.playwright.impl.PageImpl.lambda$navigate$47(PageImpl.java:943)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:97)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:943)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:42)
+	at com.microsoft.playwright.Page.navigate(Page.java:5474)
+	at com.hami.care.pages.BasePage.navigateTo(BasePage.java:19)
+	at com.hami.care.pages.LoginPage.open(LoginPage.java:27)
+	at com.hami.care.base.BaseTest.loginAsAdmin(BaseTest.java:41)
+	at com.hami.care.tests.SubscriptionPlansTest.navigateToSubscriptions(SubscriptionPlansTest.java:17)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+Caused by: com.microsoft.playwright.TimeoutError: Error {
+  message=&apos;Timeout 15000ms exceeded.
+  name=&apos;TimeoutError
+  stack=&apos;TimeoutError: Timeout 15000ms exceeded.
+    at ProgressController.run (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\progress.js:75:26)
+    at Frame.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:521:23)
+    at FrameDispatcher.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\frameDispatcher.js:82:119)
+    at FrameDispatcher._handleCommand (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+-   - navigating to &quot;https://staging.hami.care/auth/login&quot;, waiting until &quot;load&quot;
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:254)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:130)
+	... 48 more
+... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m20">com.hami.care.tests.SubscriptionPlansTest#verifyDuplicatePlanNameHandling</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">com.microsoft.playwright.TimeoutError: Error {
+  message=&apos;Timeout 15000ms exceeded.
+  name=&apos;TimeoutError
+  stack=&apos;TimeoutError: Timeout 15000ms exceeded.
+    at ProgressController.run (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\progress.js:75:26)
+    at Frame.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:521:23)
+    at FrameDispatcher.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\frameDispatcher.js:82:119)
+    at FrameDispatcher._handleCommand (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+-   - navigating to &quot;https://staging.hami.care/auth/login&quot;, waiting until &quot;load&quot;
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:52)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:132)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:118)
+	at com.microsoft.playwright.impl.FrameImpl.navigateImpl(FrameImpl.java:463)
+	at com.microsoft.playwright.impl.PageImpl.lambda$navigate$47(PageImpl.java:943)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:97)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:943)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:42)
+	at com.microsoft.playwright.Page.navigate(Page.java:5474)
+	at com.hami.care.pages.BasePage.navigateTo(BasePage.java:19)
+	at com.hami.care.pages.LoginPage.open(LoginPage.java:27)
+	at com.hami.care.base.BaseTest.loginAsAdmin(BaseTest.java:41)
+	at com.hami.care.tests.SubscriptionPlansTest.navigateToSubscriptions(SubscriptionPlansTest.java:17)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+Caused by: com.microsoft.playwright.TimeoutError: Error {
+  message=&apos;Timeout 15000ms exceeded.
+  name=&apos;TimeoutError
+  stack=&apos;TimeoutError: Timeout 15000ms exceeded.
+    at ProgressController.run (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\progress.js:75:26)
+    at Frame.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:521:23)
+    at FrameDispatcher.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\frameDispatcher.js:82:119)
+    at FrameDispatcher._handleCommand (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+-   - navigating to &quot;https://staging.hami.care/auth/login&quot;, waiting until &quot;load&quot;
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:254)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:130)
+	... 48 more
+... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m21">com.hami.care.tests.SubscriptionPlansTest#verifyEditPlanEmptyNameRejected</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">com.microsoft.playwright.TimeoutError: Error {
+  message=&apos;Timeout 15000ms exceeded.
+  name=&apos;TimeoutError
+  stack=&apos;TimeoutError: Timeout 15000ms exceeded.
+    at ProgressController.run (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\progress.js:75:26)
+    at Frame.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:521:23)
+    at FrameDispatcher.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\frameDispatcher.js:82:119)
+    at FrameDispatcher._handleCommand (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+-   - navigating to &quot;https://staging.hami.care/auth/login&quot;, waiting until &quot;load&quot;
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:52)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:132)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:118)
+	at com.microsoft.playwright.impl.FrameImpl.navigateImpl(FrameImpl.java:463)
+	at com.microsoft.playwright.impl.PageImpl.lambda$navigate$47(PageImpl.java:943)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:97)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:943)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:42)
+	at com.microsoft.playwright.Page.navigate(Page.java:5474)
+	at com.hami.care.pages.BasePage.navigateTo(BasePage.java:19)
+	at com.hami.care.pages.LoginPage.open(LoginPage.java:27)
+	at com.hami.care.base.BaseTest.loginAsAdmin(BaseTest.java:41)
+	at com.hami.care.tests.SubscriptionPlansTest.navigateToSubscriptions(SubscriptionPlansTest.java:17)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+Caused by: com.microsoft.playwright.TimeoutError: Error {
+  message=&apos;Timeout 15000ms exceeded.
+  name=&apos;TimeoutError
+  stack=&apos;TimeoutError: Timeout 15000ms exceeded.
+    at ProgressController.run (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\progress.js:75:26)
+    at Frame.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:521:23)
+    at FrameDispatcher.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\frameDispatcher.js:82:119)
+    at FrameDispatcher._handleCommand (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+-   - navigating to &quot;https://staging.hami.care/auth/login&quot;, waiting until &quot;load&quot;
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:254)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:130)
+	... 48 more
+... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m22">com.hami.care.tests.SubscriptionPlansTest#verifySearchAndFilterPlans</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">com.microsoft.playwright.TimeoutError: Error {
+  message=&apos;Timeout 15000ms exceeded.
+  name=&apos;TimeoutError
+  stack=&apos;TimeoutError: Timeout 15000ms exceeded.
+    at ProgressController.run (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\progress.js:75:26)
+    at Frame.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:521:23)
+    at FrameDispatcher.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\frameDispatcher.js:82:119)
+    at FrameDispatcher._handleCommand (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+-   - navigating to &quot;https://staging.hami.care/auth/login&quot;, waiting until &quot;load&quot;
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:52)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:132)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:118)
+	at com.microsoft.playwright.impl.FrameImpl.navigateImpl(FrameImpl.java:463)
+	at com.microsoft.playwright.impl.PageImpl.lambda$navigate$47(PageImpl.java:943)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:97)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:943)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:42)
+	at com.microsoft.playwright.Page.navigate(Page.java:5474)
+	at com.hami.care.pages.BasePage.navigateTo(BasePage.java:19)
+	at com.hami.care.pages.LoginPage.open(LoginPage.java:27)
+	at com.hami.care.base.BaseTest.loginAsAdmin(BaseTest.java:41)
+	at com.hami.care.tests.SubscriptionPlansTest.navigateToSubscriptions(SubscriptionPlansTest.java:17)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+Caused by: com.microsoft.playwright.TimeoutError: Error {
+  message=&apos;Timeout 15000ms exceeded.
+  name=&apos;TimeoutError
+  stack=&apos;TimeoutError: Timeout 15000ms exceeded.
+    at ProgressController.run (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\progress.js:75:26)
+    at Frame.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:521:23)
+    at FrameDispatcher.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\frameDispatcher.js:82:119)
+    at FrameDispatcher._handleCommand (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+-   - navigating to &quot;https://staging.hami.care/auth/login&quot;, waiting until &quot;load&quot;
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:254)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:130)
+	... 48 more
+... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m23">com.hami.care.tests.SubscriptionPlansTest#verifySpecialCharactersAndLongDescription</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">com.microsoft.playwright.TimeoutError: Error {
+  message=&apos;Timeout 15000ms exceeded.
+  name=&apos;TimeoutError
+  stack=&apos;TimeoutError: Timeout 15000ms exceeded.
+    at ProgressController.run (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\progress.js:75:26)
+    at Frame.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:521:23)
+    at FrameDispatcher.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\frameDispatcher.js:82:119)
+    at FrameDispatcher._handleCommand (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+-   - navigating to &quot;https://staging.hami.care/auth/login&quot;, waiting until &quot;load&quot;
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:52)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:132)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:118)
+	at com.microsoft.playwright.impl.FrameImpl.navigateImpl(FrameImpl.java:463)
+	at com.microsoft.playwright.impl.PageImpl.lambda$navigate$47(PageImpl.java:943)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:97)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:943)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:42)
+	at com.microsoft.playwright.Page.navigate(Page.java:5474)
+	at com.hami.care.pages.BasePage.navigateTo(BasePage.java:19)
+	at com.hami.care.pages.LoginPage.open(LoginPage.java:27)
+	at com.hami.care.base.BaseTest.loginAsAdmin(BaseTest.java:41)
+	at com.hami.care.tests.SubscriptionPlansTest.navigateToSubscriptions(SubscriptionPlansTest.java:17)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+Caused by: com.microsoft.playwright.TimeoutError: Error {
+  message=&apos;Timeout 15000ms exceeded.
+  name=&apos;TimeoutError
+  stack=&apos;TimeoutError: Timeout 15000ms exceeded.
+    at ProgressController.run (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\progress.js:75:26)
+    at Frame.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:521:23)
+    at FrameDispatcher.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\frameDispatcher.js:82:119)
+    at FrameDispatcher._handleCommand (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+-   - navigating to &quot;https://staging.hami.care/auth/login&quot;, waiting until &quot;load&quot;
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:254)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:130)
+	... 48 more
+... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m24">com.hami.care.tests.SubscriptionPlansTest#verifyToggleStatusAndPopularInEdit</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">com.microsoft.playwright.TimeoutError: Error {
+  message=&apos;Timeout 15000ms exceeded.
+  name=&apos;TimeoutError
+  stack=&apos;TimeoutError: Timeout 15000ms exceeded.
+    at ProgressController.run (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\progress.js:75:26)
+    at Frame.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:521:23)
+    at FrameDispatcher.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\frameDispatcher.js:82:119)
+    at FrameDispatcher._handleCommand (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+-   - navigating to &quot;https://staging.hami.care/auth/login&quot;, waiting until &quot;load&quot;
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:52)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:132)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:118)
+	at com.microsoft.playwright.impl.FrameImpl.navigateImpl(FrameImpl.java:463)
+	at com.microsoft.playwright.impl.PageImpl.lambda$navigate$47(PageImpl.java:943)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:97)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:943)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:42)
+	at com.microsoft.playwright.Page.navigate(Page.java:5474)
+	at com.hami.care.pages.BasePage.navigateTo(BasePage.java:19)
+	at com.hami.care.pages.LoginPage.open(LoginPage.java:27)
+	at com.hami.care.base.BaseTest.loginAsAdmin(BaseTest.java:41)
+	at com.hami.care.tests.SubscriptionPlansTest.navigateToSubscriptions(SubscriptionPlansTest.java:17)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+Caused by: com.microsoft.playwright.TimeoutError: Error {
+  message=&apos;Timeout 15000ms exceeded.
+  name=&apos;TimeoutError
+  stack=&apos;TimeoutError: Timeout 15000ms exceeded.
+    at ProgressController.run (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\progress.js:75:26)
+    at Frame.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:521:23)
+    at FrameDispatcher.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\frameDispatcher.js:82:119)
+    at FrameDispatcher._handleCommand (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+-   - navigating to &quot;https://staging.hami.care/auth/login&quot;, waiting until &quot;load&quot;
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:254)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:130)
+	... 48 more
+... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

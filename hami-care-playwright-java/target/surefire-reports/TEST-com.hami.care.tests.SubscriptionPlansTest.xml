@@ -1,0 +1,1183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="com.hami.care.tests.SubscriptionPlansTest" time="219.509" tests="25" errors="0" skipped="11" failures="14">
+  <properties>
+    <property name="java.specification.version" value="27"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Tarun\Downloads\hami-care-playwright-java\target\test-classes;C:\Users\Tarun\Downloads\hami-care-playwright-java\target\classes;C:\Users\Tarun\.m2\repository\com\microsoft\playwright\playwright\1.49.0\playwright-1.49.0.jar;C:\Users\Tarun\.m2\repository\com\google\code\gson\gson\2.11.0\gson-2.11.0.jar;C:\Users\Tarun\.m2\repository\com\google\errorprone\error_prone_annotations\2.27.0\error_prone_annotations-2.27.0.jar;C:\Users\Tarun\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Tarun\.m2\repository\com\microsoft\playwright\driver\1.49.0\driver-1.49.0.jar;C:\Users\Tarun\.m2\repository\com\microsoft\playwright\driver-bundle\1.49.0\driver-bundle-1.49.0.jar;C:\Users\Tarun\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\Tarun\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Tarun\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Tarun\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="27"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-27\bin"/>
+    <property name="sun.java.command" value="C:\Users\Tarun\AppData\Local\Temp\surefire15517815063726312771\surefirebooter-20261119120939792_3.jar C:\Users\Tarun\AppData\Local\Temp\surefire15517815063726312771 2026-11-19T12-09-39_487-jvmRun1 surefire-20261119120939792_1tmp surefire_0-20261119120939792_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="test" value="SubscriptionPlansTest"/>
+    <property name="surefire.test.class.path" value="C:\Users\Tarun\Downloads\hami-care-playwright-java\target\test-classes;C:\Users\Tarun\Downloads\hami-care-playwright-java\target\classes;C:\Users\Tarun\.m2\repository\com\microsoft\playwright\playwright\1.49.0\playwright-1.49.0.jar;C:\Users\Tarun\.m2\repository\com\google\code\gson\gson\2.11.0\gson-2.11.0.jar;C:\Users\Tarun\.m2\repository\com\google\errorprone\error_prone_annotations\2.27.0\error_prone_annotations-2.27.0.jar;C:\Users\Tarun\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Tarun\.m2\repository\com\microsoft\playwright\driver\1.49.0\driver-1.49.0.jar;C:\Users\Tarun\.m2\repository\com\microsoft\playwright\driver-bundle\1.49.0\driver-bundle-1.49.0.jar;C:\Users\Tarun\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\Tarun\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Tarun\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Tarun\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Tarun"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-09-15"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-27"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Tarun\Downloads\hami-care-playwright-java"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Tarun\AppData\Local\Temp\surefire15517815063726312771\surefirebooter-20261119120939792_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="27+35-2325"/>
+    <property name="user.name" value="Tarun"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Tarun\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Tarun\AppData\Local\Temp\"/>
+    <property name="java.version" value="27"/>
+    <property name="user.dir" value="C:\Users\Tarun\Downloads\hami-care-playwright-java"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-27\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-27\bin;C:\apache-maven-3.10.0\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\Tarun\AppData\Local\Microsoft\WindowsApps;C:\Users\Tarun\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Tarun\AppData\Local\GitHubCopilotCLI\;C:\Users\Tarun\AppData\Local\Programs\Microsoft VS Code\bin\copilot-shim;C:\apache-maven-3.10.0\bin;C:\Program Files\Git\cmd;C:\Users\Tarun\AppData\Roaming\npm;c:\Users\Tarun\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="27+35-2325"/>
+    <property name="stdin.encoding" value="Cp1252"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="71.0"/>
+  </properties>
+  <testcase name="verifySubscriptionManagementPage" classname="com.hami.care.tests.SubscriptionPlansTest" time="0.077">
+    <failure message="Subscription Management page should load expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Subscription Management page should load expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at com.hami.care.tests.SubscriptionPlansTest.verifySubscriptionManagementPage(SubscriptionPlansTest.java:29)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:583)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="verifyCreateAndEditActivePopularPlan" classname="com.hami.care.tests.SubscriptionPlansTest" time="15.031">
+    <failure message="Error {&#10;  message=&apos;Timeout 15000ms exceeded.&#10;  name=&apos;TimeoutError&#10;  stack=&apos;TimeoutError: Timeout 15000ms exceeded.&#10;    at ProgressController.run (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\progress.js:75:26)&#10;    at Frame.click (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:1022:23)&#10;    at FrameDispatcher.click (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\frameDispatcher.js:158:30)&#10;    at FrameDispatcher._handleCommand (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:94:40)&#10;    at DispatcherConnection.dispatch (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:361:39)&#10;}&#10;Call log:&#10;-   - waiting for getByText(&quot;+ Add Subscription&quot;)&#10;" type="com.microsoft.playwright.TimeoutError"><![CDATA[com.microsoft.playwright.TimeoutError: 
+Error {
+  message='Timeout 15000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 15000ms exceeded.
+    at ProgressController.run (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\progress.js:75:26)
+    at Frame.click (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:1022:23)
+    at FrameDispatcher.click (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\frameDispatcher.js:158:30)
+    at FrameDispatcher._handleCommand (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+-   - waiting for getByText("+ Add Subscription")
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:52)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:132)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:118)
+	at com.microsoft.playwright.impl.FrameImpl.clickImpl(FrameImpl.java:252)
+	at com.microsoft.playwright.impl.FrameImpl.lambda$click$8(FrameImpl.java:243)
+	at com.microsoft.playwright.impl.LoggingSupport.lambda$withLogging$0(LoggingSupport.java:36)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:97)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:35)
+	at com.microsoft.playwright.impl.FrameImpl.click(FrameImpl.java:243)
+	at com.microsoft.playwright.impl.LocatorImpl.click(LocatorImpl.java:175)
+	at com.microsoft.playwright.Locator.click(Locator.java:2493)
+	at com.hami.care.pages.SubscriptionPlansPage.clickAddSubscription(SubscriptionPlansPage.java:83)
+	at com.hami.care.tests.SubscriptionPlansTest.verifyCreateAndEditActivePopularPlan(SubscriptionPlansTest.java:43)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:583)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: com.microsoft.playwright.TimeoutError: Error {
+  message='Timeout 15000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 15000ms exceeded.
+    at ProgressController.run (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\progress.js:75:26)
+    at Frame.click (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:1022:23)
+    at FrameDispatcher.click (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\frameDispatcher.js:158:30)
+    at FrameDispatcher._handleCommand (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+-   - waiting for getByText("+ Add Subscription")
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:254)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:130)
+	... 44 more
+]]></failure>
+  </testcase>
+  <testcase name="verifyCreateInactiveNonPopularPlanWithZeroDiscount" classname="com.hami.care.tests.SubscriptionPlansTest" time="15.015">
+    <failure message="Error {&#10;  message=&apos;Timeout 15000ms exceeded.&#10;  name=&apos;TimeoutError&#10;  stack=&apos;TimeoutError: Timeout 15000ms exceeded.&#10;    at ProgressController.run (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\progress.js:75:26)&#10;    at Frame.click (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:1022:23)&#10;    at FrameDispatcher.click (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\frameDispatcher.js:158:30)&#10;    at FrameDispatcher._handleCommand (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:94:40)&#10;    at DispatcherConnection.dispatch (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:361:39)&#10;}&#10;Call log:&#10;-   - waiting for getByText(&quot;+ Add Subscription&quot;)&#10;" type="com.microsoft.playwright.TimeoutError"><![CDATA[com.microsoft.playwright.TimeoutError: 
+Error {
+  message='Timeout 15000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 15000ms exceeded.
+    at ProgressController.run (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\progress.js:75:26)
+    at Frame.click (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:1022:23)
+    at FrameDispatcher.click (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\frameDispatcher.js:158:30)
+    at FrameDispatcher._handleCommand (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+-   - waiting for getByText("+ Add Subscription")
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:52)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:132)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:118)
+	at com.microsoft.playwright.impl.FrameImpl.clickImpl(FrameImpl.java:252)
+	at com.microsoft.playwright.impl.FrameImpl.lambda$click$8(FrameImpl.java:243)
+	at com.microsoft.playwright.impl.LoggingSupport.lambda$withLogging$0(LoggingSupport.java:36)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:97)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:35)
+	at com.microsoft.playwright.impl.FrameImpl.click(FrameImpl.java:243)
+	at com.microsoft.playwright.impl.LocatorImpl.click(LocatorImpl.java:175)
+	at com.microsoft.playwright.Locator.click(Locator.java:2493)
+	at com.hami.care.pages.SubscriptionPlansPage.clickAddSubscription(SubscriptionPlansPage.java:83)
+	at com.hami.care.tests.SubscriptionPlansTest.verifyCreateInactiveNonPopularPlanWithZeroDiscount(SubscriptionPlansTest.java:87)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:583)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: com.microsoft.playwright.TimeoutError: Error {
+  message='Timeout 15000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 15000ms exceeded.
+    at ProgressController.run (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\progress.js:75:26)
+    at Frame.click (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:1022:23)
+    at FrameDispatcher.click (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\frameDispatcher.js:158:30)
+    at FrameDispatcher._handleCommand (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+-   - waiting for getByText("+ Add Subscription")
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:254)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:130)
+	... 44 more
+]]></failure>
+  </testcase>
+  <testcase name="navigateToSubscriptions" classname="com.hami.care.tests.SubscriptionPlansTest" time="34.684">
+    <failure message="Error {&#10;  message=&apos;Timeout 15000ms exceeded.&#10;  name=&apos;TimeoutError&#10;  stack=&apos;TimeoutError: Timeout 15000ms exceeded.&#10;    at ProgressController.run (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\progress.js:75:26)&#10;    at Frame.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:521:23)&#10;    at FrameDispatcher.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\frameDispatcher.js:82:119)&#10;    at FrameDispatcher._handleCommand (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:94:40)&#10;    at DispatcherConnection.dispatch (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:361:39)&#10;}&#10;Call log:&#10;-   - navigating to &quot;https://staging.hami.care/auth/login&quot;, waiting until &quot;load&quot;&#10;" type="com.microsoft.playwright.TimeoutError"><![CDATA[com.microsoft.playwright.TimeoutError: 
+Error {
+  message='Timeout 15000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 15000ms exceeded.
+    at ProgressController.run (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\progress.js:75:26)
+    at Frame.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:521:23)
+    at FrameDispatcher.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\frameDispatcher.js:82:119)
+    at FrameDispatcher._handleCommand (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+-   - navigating to "https://staging.hami.care/auth/login", waiting until "load"
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:52)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:132)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:118)
+	at com.microsoft.playwright.impl.FrameImpl.navigateImpl(FrameImpl.java:463)
+	at com.microsoft.playwright.impl.PageImpl.lambda$navigate$47(PageImpl.java:943)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:97)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:943)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:42)
+	at com.microsoft.playwright.Page.navigate(Page.java:5474)
+	at com.hami.care.pages.BasePage.navigateTo(BasePage.java:19)
+	at com.hami.care.pages.LoginPage.open(LoginPage.java:27)
+	at com.hami.care.base.BaseTest.loginAsAdmin(BaseTest.java:41)
+	at com.hami.care.tests.SubscriptionPlansTest.navigateToSubscriptions(SubscriptionPlansTest.java:17)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:583)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: com.microsoft.playwright.TimeoutError: Error {
+  message='Timeout 15000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 15000ms exceeded.
+    at ProgressController.run (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\progress.js:75:26)
+    at Frame.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:521:23)
+    at FrameDispatcher.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\frameDispatcher.js:82:119)
+    at FrameDispatcher._handleCommand (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+-   - navigating to "https://staging.hami.care/auth/login", waiting until "load"
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:254)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:130)
+	... 48 more
+]]></failure>
+  </testcase>
+  <testcase name="navigateToSubscriptions" classname="com.hami.care.tests.SubscriptionPlansTest" time="18.318">
+    <failure message="Error {&#10;  message=&apos;Timeout 15000ms exceeded.&#10;  name=&apos;TimeoutError&#10;  stack=&apos;TimeoutError: Timeout 15000ms exceeded.&#10;    at ProgressController.run (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\progress.js:75:26)&#10;    at Frame.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:521:23)&#10;    at FrameDispatcher.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\frameDispatcher.js:82:119)&#10;    at FrameDispatcher._handleCommand (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:94:40)&#10;    at DispatcherConnection.dispatch (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:361:39)&#10;}&#10;Call log:&#10;-   - navigating to &quot;https://staging.hami.care/auth/login&quot;, waiting until &quot;load&quot;&#10;" type="com.microsoft.playwright.TimeoutError"><![CDATA[com.microsoft.playwright.TimeoutError: 
+Error {
+  message='Timeout 15000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 15000ms exceeded.
+    at ProgressController.run (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\progress.js:75:26)
+    at Frame.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:521:23)
+    at FrameDispatcher.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\frameDispatcher.js:82:119)
+    at FrameDispatcher._handleCommand (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+-   - navigating to "https://staging.hami.care/auth/login", waiting until "load"
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:52)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:132)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:118)
+	at com.microsoft.playwright.impl.FrameImpl.navigateImpl(FrameImpl.java:463)
+	at com.microsoft.playwright.impl.PageImpl.lambda$navigate$47(PageImpl.java:943)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:97)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:943)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:42)
+	at com.microsoft.playwright.Page.navigate(Page.java:5474)
+	at com.hami.care.pages.BasePage.navigateTo(BasePage.java:19)
+	at com.hami.care.pages.LoginPage.open(LoginPage.java:27)
+	at com.hami.care.base.BaseTest.loginAsAdmin(BaseTest.java:41)
+	at com.hami.care.tests.SubscriptionPlansTest.navigateToSubscriptions(SubscriptionPlansTest.java:17)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:583)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: com.microsoft.playwright.TimeoutError: Error {
+  message='Timeout 15000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 15000ms exceeded.
+    at ProgressController.run (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\progress.js:75:26)
+    at Frame.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:521:23)
+    at FrameDispatcher.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\frameDispatcher.js:82:119)
+    at FrameDispatcher._handleCommand (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+-   - navigating to "https://staging.hami.care/auth/login", waiting until "load"
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:254)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:130)
+	... 48 more
+]]></failure>
+  </testcase>
+  <testcase name="navigateToSubscriptions" classname="com.hami.care.tests.SubscriptionPlansTest" time="5.463">
+    <failure message="Error {&#10;  message=&apos;net::ERR_NETWORK_CHANGED at https://staging.hami.care/auth/login&#10;  name=&apos;Error&#10;  stack=&apos;Error: net::ERR_NETWORK_CHANGED at https://staging.hami.care/auth/login&#10;    at FrameSession._navigate (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\chromium\crPage.js:512:35)&#10;    at runNextTicks (node:internal/process/task_queues:65:5)&#10;    at process.processImmediate (node:internal/timers:459:9)&#10;    at async Frame._gotoAction (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:540:28)&#10;}&#10;Call log:&#10;-   - navigating to &quot;https://staging.hami.care/auth/login&quot;, waiting until &quot;load&quot;&#10;" type="com.microsoft.playwright.PlaywrightException"><![CDATA[com.microsoft.playwright.PlaywrightException: 
+Error {
+  message='net::ERR_NETWORK_CHANGED at https://staging.hami.care/auth/login
+  name='Error
+  stack='Error: net::ERR_NETWORK_CHANGED at https://staging.hami.care/auth/login
+    at FrameSession._navigate (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\chromium\crPage.js:512:35)
+    at runNextTicks (node:internal/process/task_queues:65:5)
+    at process.processImmediate (node:internal/timers:459:9)
+    at async Frame._gotoAction (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:540:28)
+}
+Call log:
+-   - navigating to "https://staging.hami.care/auth/login", waiting until "load"
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:56)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:132)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:118)
+	at com.microsoft.playwright.impl.FrameImpl.navigateImpl(FrameImpl.java:463)
+	at com.microsoft.playwright.impl.PageImpl.lambda$navigate$47(PageImpl.java:943)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:97)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:943)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:42)
+	at com.microsoft.playwright.Page.navigate(Page.java:5474)
+	at com.hami.care.pages.BasePage.navigateTo(BasePage.java:19)
+	at com.hami.care.pages.LoginPage.open(LoginPage.java:27)
+	at com.hami.care.base.BaseTest.loginAsAdmin(BaseTest.java:41)
+	at com.hami.care.tests.SubscriptionPlansTest.navigateToSubscriptions(SubscriptionPlansTest.java:17)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:583)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: com.microsoft.playwright.impl.DriverException: Error {
+  message='net::ERR_NETWORK_CHANGED at https://staging.hami.care/auth/login
+  name='Error
+  stack='Error: net::ERR_NETWORK_CHANGED at https://staging.hami.care/auth/login
+    at FrameSession._navigate (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\chromium\crPage.js:512:35)
+    at runNextTicks (node:internal/process/task_queues:65:5)
+    at process.processImmediate (node:internal/timers:459:9)
+    at async Frame._gotoAction (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:540:28)
+}
+Call log:
+-   - navigating to "https://staging.hami.care/auth/login", waiting until "load"
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:259)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:130)
+	... 48 more
+]]></failure>
+  </testcase>
+  <testcase name="navigateToSubscriptions" classname="com.hami.care.tests.SubscriptionPlansTest" time="10.977">
+    <failure message="Error {&#10;  message=&apos;net::ERR_NAME_NOT_RESOLVED at https://staging.hami.care/auth/login&#10;  name=&apos;Error&#10;  stack=&apos;Error: net::ERR_NAME_NOT_RESOLVED at https://staging.hami.care/auth/login&#10;    at FrameSession._navigate (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\chromium\crPage.js:512:35)&#10;    at async Frame._gotoAction (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:540:28)&#10;}&#10;Call log:&#10;-   - navigating to &quot;https://staging.hami.care/auth/login&quot;, waiting until &quot;load&quot;&#10;" type="com.microsoft.playwright.PlaywrightException"><![CDATA[com.microsoft.playwright.PlaywrightException: 
+Error {
+  message='net::ERR_NAME_NOT_RESOLVED at https://staging.hami.care/auth/login
+  name='Error
+  stack='Error: net::ERR_NAME_NOT_RESOLVED at https://staging.hami.care/auth/login
+    at FrameSession._navigate (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\chromium\crPage.js:512:35)
+    at async Frame._gotoAction (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:540:28)
+}
+Call log:
+-   - navigating to "https://staging.hami.care/auth/login", waiting until "load"
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:56)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:132)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:118)
+	at com.microsoft.playwright.impl.FrameImpl.navigateImpl(FrameImpl.java:463)
+	at com.microsoft.playwright.impl.PageImpl.lambda$navigate$47(PageImpl.java:943)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:97)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:943)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:42)
+	at com.microsoft.playwright.Page.navigate(Page.java:5474)
+	at com.hami.care.pages.BasePage.navigateTo(BasePage.java:19)
+	at com.hami.care.pages.LoginPage.open(LoginPage.java:27)
+	at com.hami.care.base.BaseTest.loginAsAdmin(BaseTest.java:41)
+	at com.hami.care.tests.SubscriptionPlansTest.navigateToSubscriptions(SubscriptionPlansTest.java:17)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:583)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: com.microsoft.playwright.impl.DriverException: Error {
+  message='net::ERR_NAME_NOT_RESOLVED at https://staging.hami.care/auth/login
+  name='Error
+  stack='Error: net::ERR_NAME_NOT_RESOLVED at https://staging.hami.care/auth/login
+    at FrameSession._navigate (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\chromium\crPage.js:512:35)
+    at async Frame._gotoAction (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:540:28)
+}
+Call log:
+-   - navigating to "https://staging.hami.care/auth/login", waiting until "load"
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:259)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:130)
+	... 48 more
+]]></failure>
+  </testcase>
+  <testcase name="navigateToSubscriptions" classname="com.hami.care.tests.SubscriptionPlansTest" time="11.42">
+    <failure message="Error {&#10;  message=&apos;net::ERR_NETWORK_CHANGED at https://staging.hami.care/auth/login&#10;  name=&apos;Error&#10;  stack=&apos;Error: net::ERR_NETWORK_CHANGED at https://staging.hami.care/auth/login&#10;    at FrameSession._navigate (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\chromium\crPage.js:512:35)&#10;    at async Frame._gotoAction (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:540:28)&#10;}&#10;Call log:&#10;-   - navigating to &quot;https://staging.hami.care/auth/login&quot;, waiting until &quot;load&quot;&#10;" type="com.microsoft.playwright.PlaywrightException"><![CDATA[com.microsoft.playwright.PlaywrightException: 
+Error {
+  message='net::ERR_NETWORK_CHANGED at https://staging.hami.care/auth/login
+  name='Error
+  stack='Error: net::ERR_NETWORK_CHANGED at https://staging.hami.care/auth/login
+    at FrameSession._navigate (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\chromium\crPage.js:512:35)
+    at async Frame._gotoAction (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:540:28)
+}
+Call log:
+-   - navigating to "https://staging.hami.care/auth/login", waiting until "load"
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:56)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:132)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:118)
+	at com.microsoft.playwright.impl.FrameImpl.navigateImpl(FrameImpl.java:463)
+	at com.microsoft.playwright.impl.PageImpl.lambda$navigate$47(PageImpl.java:943)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:97)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:943)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:42)
+	at com.microsoft.playwright.Page.navigate(Page.java:5474)
+	at com.hami.care.pages.BasePage.navigateTo(BasePage.java:19)
+	at com.hami.care.pages.LoginPage.open(LoginPage.java:27)
+	at com.hami.care.base.BaseTest.loginAsAdmin(BaseTest.java:41)
+	at com.hami.care.tests.SubscriptionPlansTest.navigateToSubscriptions(SubscriptionPlansTest.java:17)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:583)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: com.microsoft.playwright.impl.DriverException: Error {
+  message='net::ERR_NETWORK_CHANGED at https://staging.hami.care/auth/login
+  name='Error
+  stack='Error: net::ERR_NETWORK_CHANGED at https://staging.hami.care/auth/login
+    at FrameSession._navigate (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\chromium\crPage.js:512:35)
+    at async Frame._gotoAction (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:540:28)
+}
+Call log:
+-   - navigating to "https://staging.hami.care/auth/login", waiting until "load"
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:259)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:130)
+	... 48 more
+]]></failure>
+  </testcase>
+  <testcase name="navigateToSubscriptions" classname="com.hami.care.tests.SubscriptionPlansTest" time="36.252">
+    <failure message="Error {&#10;  message=&apos;Timeout 15000ms exceeded.&#10;  name=&apos;TimeoutError&#10;  stack=&apos;TimeoutError: Timeout 15000ms exceeded.&#10;    at ProgressController.run (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\progress.js:75:26)&#10;    at Frame.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:521:23)&#10;    at FrameDispatcher.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\frameDispatcher.js:82:119)&#10;    at FrameDispatcher._handleCommand (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:94:40)&#10;    at DispatcherConnection.dispatch (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:361:39)&#10;}&#10;Call log:&#10;-   - navigating to &quot;https://staging.hami.care/auth/login&quot;, waiting until &quot;load&quot;&#10;" type="com.microsoft.playwright.TimeoutError"><![CDATA[com.microsoft.playwright.TimeoutError: 
+Error {
+  message='Timeout 15000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 15000ms exceeded.
+    at ProgressController.run (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\progress.js:75:26)
+    at Frame.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:521:23)
+    at FrameDispatcher.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\frameDispatcher.js:82:119)
+    at FrameDispatcher._handleCommand (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+-   - navigating to "https://staging.hami.care/auth/login", waiting until "load"
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:52)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:132)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:118)
+	at com.microsoft.playwright.impl.FrameImpl.navigateImpl(FrameImpl.java:463)
+	at com.microsoft.playwright.impl.PageImpl.lambda$navigate$47(PageImpl.java:943)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:97)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:943)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:42)
+	at com.microsoft.playwright.Page.navigate(Page.java:5474)
+	at com.hami.care.pages.BasePage.navigateTo(BasePage.java:19)
+	at com.hami.care.pages.LoginPage.open(LoginPage.java:27)
+	at com.hami.care.base.BaseTest.loginAsAdmin(BaseTest.java:41)
+	at com.hami.care.tests.SubscriptionPlansTest.navigateToSubscriptions(SubscriptionPlansTest.java:17)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:583)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: com.microsoft.playwright.TimeoutError: Error {
+  message='Timeout 15000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 15000ms exceeded.
+    at ProgressController.run (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\progress.js:75:26)
+    at Frame.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:521:23)
+    at FrameDispatcher.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\frameDispatcher.js:82:119)
+    at FrameDispatcher._handleCommand (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+-   - navigating to "https://staging.hami.care/auth/login", waiting until "load"
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:254)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:130)
+	... 48 more
+]]></failure>
+  </testcase>
+  <testcase name="navigateToSubscriptions" classname="com.hami.care.tests.SubscriptionPlansTest" time="7.36">
+    <failure message="Error {&#10;  message=&apos;net::ERR_INTERNET_DISCONNECTED at https://staging.hami.care/auth/login&#10;  name=&apos;Error&#10;  stack=&apos;Error: net::ERR_INTERNET_DISCONNECTED at https://staging.hami.care/auth/login&#10;    at FrameSession._navigate (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\chromium\crPage.js:512:35)&#10;    at async Frame._gotoAction (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:540:28)&#10;}&#10;Call log:&#10;-   - navigating to &quot;https://staging.hami.care/auth/login&quot;, waiting until &quot;load&quot;&#10;" type="com.microsoft.playwright.PlaywrightException"><![CDATA[com.microsoft.playwright.PlaywrightException: 
+Error {
+  message='net::ERR_INTERNET_DISCONNECTED at https://staging.hami.care/auth/login
+  name='Error
+  stack='Error: net::ERR_INTERNET_DISCONNECTED at https://staging.hami.care/auth/login
+    at FrameSession._navigate (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\chromium\crPage.js:512:35)
+    at async Frame._gotoAction (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:540:28)
+}
+Call log:
+-   - navigating to "https://staging.hami.care/auth/login", waiting until "load"
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:56)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:132)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:118)
+	at com.microsoft.playwright.impl.FrameImpl.navigateImpl(FrameImpl.java:463)
+	at com.microsoft.playwright.impl.PageImpl.lambda$navigate$47(PageImpl.java:943)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:97)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:943)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:42)
+	at com.microsoft.playwright.Page.navigate(Page.java:5474)
+	at com.hami.care.pages.BasePage.navigateTo(BasePage.java:19)
+	at com.hami.care.pages.LoginPage.open(LoginPage.java:27)
+	at com.hami.care.base.BaseTest.loginAsAdmin(BaseTest.java:41)
+	at com.hami.care.tests.SubscriptionPlansTest.navigateToSubscriptions(SubscriptionPlansTest.java:17)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:583)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: com.microsoft.playwright.impl.DriverException: Error {
+  message='net::ERR_INTERNET_DISCONNECTED at https://staging.hami.care/auth/login
+  name='Error
+  stack='Error: net::ERR_INTERNET_DISCONNECTED at https://staging.hami.care/auth/login
+    at FrameSession._navigate (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\chromium\crPage.js:512:35)
+    at async Frame._gotoAction (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:540:28)
+}
+Call log:
+-   - navigating to "https://staging.hami.care/auth/login", waiting until "load"
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:259)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:130)
+	... 48 more
+]]></failure>
+  </testcase>
+  <testcase name="navigateToSubscriptions" classname="com.hami.care.tests.SubscriptionPlansTest" time="4.029">
+    <failure message="Error {&#10;  message=&apos;net::ERR_INTERNET_DISCONNECTED at https://staging.hami.care/auth/login&#10;  name=&apos;Error&#10;  stack=&apos;Error: net::ERR_INTERNET_DISCONNECTED at https://staging.hami.care/auth/login&#10;    at FrameSession._navigate (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\chromium\crPage.js:512:35)&#10;    at async Frame._gotoAction (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:540:28)&#10;}&#10;Call log:&#10;-   - navigating to &quot;https://staging.hami.care/auth/login&quot;, waiting until &quot;load&quot;&#10;" type="com.microsoft.playwright.PlaywrightException"><![CDATA[com.microsoft.playwright.PlaywrightException: 
+Error {
+  message='net::ERR_INTERNET_DISCONNECTED at https://staging.hami.care/auth/login
+  name='Error
+  stack='Error: net::ERR_INTERNET_DISCONNECTED at https://staging.hami.care/auth/login
+    at FrameSession._navigate (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\chromium\crPage.js:512:35)
+    at async Frame._gotoAction (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:540:28)
+}
+Call log:
+-   - navigating to "https://staging.hami.care/auth/login", waiting until "load"
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:56)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:132)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:118)
+	at com.microsoft.playwright.impl.FrameImpl.navigateImpl(FrameImpl.java:463)
+	at com.microsoft.playwright.impl.PageImpl.lambda$navigate$47(PageImpl.java:943)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:97)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:943)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:42)
+	at com.microsoft.playwright.Page.navigate(Page.java:5474)
+	at com.hami.care.pages.BasePage.navigateTo(BasePage.java:19)
+	at com.hami.care.pages.LoginPage.open(LoginPage.java:27)
+	at com.hami.care.base.BaseTest.loginAsAdmin(BaseTest.java:41)
+	at com.hami.care.tests.SubscriptionPlansTest.navigateToSubscriptions(SubscriptionPlansTest.java:17)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:583)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: com.microsoft.playwright.impl.DriverException: Error {
+  message='net::ERR_INTERNET_DISCONNECTED at https://staging.hami.care/auth/login
+  name='Error
+  stack='Error: net::ERR_INTERNET_DISCONNECTED at https://staging.hami.care/auth/login
+    at FrameSession._navigate (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\chromium\crPage.js:512:35)
+    at async Frame._gotoAction (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:540:28)
+}
+Call log:
+-   - navigating to "https://staging.hami.care/auth/login", waiting until "load"
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:259)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:130)
+	... 48 more
+]]></failure>
+  </testcase>
+  <testcase name="navigateToSubscriptions" classname="com.hami.care.tests.SubscriptionPlansTest" time="4.124">
+    <failure message="Error {&#10;  message=&apos;net::ERR_INTERNET_DISCONNECTED at https://staging.hami.care/auth/login&#10;  name=&apos;Error&#10;  stack=&apos;Error: net::ERR_INTERNET_DISCONNECTED at https://staging.hami.care/auth/login&#10;    at FrameSession._navigate (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\chromium\crPage.js:512:35)&#10;    at async Frame._gotoAction (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:540:28)&#10;}&#10;Call log:&#10;-   - navigating to &quot;https://staging.hami.care/auth/login&quot;, waiting until &quot;load&quot;&#10;" type="com.microsoft.playwright.PlaywrightException"><![CDATA[com.microsoft.playwright.PlaywrightException: 
+Error {
+  message='net::ERR_INTERNET_DISCONNECTED at https://staging.hami.care/auth/login
+  name='Error
+  stack='Error: net::ERR_INTERNET_DISCONNECTED at https://staging.hami.care/auth/login
+    at FrameSession._navigate (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\chromium\crPage.js:512:35)
+    at async Frame._gotoAction (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:540:28)
+}
+Call log:
+-   - navigating to "https://staging.hami.care/auth/login", waiting until "load"
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:56)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:132)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:118)
+	at com.microsoft.playwright.impl.FrameImpl.navigateImpl(FrameImpl.java:463)
+	at com.microsoft.playwright.impl.PageImpl.lambda$navigate$47(PageImpl.java:943)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:97)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:943)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:42)
+	at com.microsoft.playwright.Page.navigate(Page.java:5474)
+	at com.hami.care.pages.BasePage.navigateTo(BasePage.java:19)
+	at com.hami.care.pages.LoginPage.open(LoginPage.java:27)
+	at com.hami.care.base.BaseTest.loginAsAdmin(BaseTest.java:41)
+	at com.hami.care.tests.SubscriptionPlansTest.navigateToSubscriptions(SubscriptionPlansTest.java:17)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:583)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: com.microsoft.playwright.impl.DriverException: Error {
+  message='net::ERR_INTERNET_DISCONNECTED at https://staging.hami.care/auth/login
+  name='Error
+  stack='Error: net::ERR_INTERNET_DISCONNECTED at https://staging.hami.care/auth/login
+    at FrameSession._navigate (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\chromium\crPage.js:512:35)
+    at async Frame._gotoAction (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:540:28)
+}
+Call log:
+-   - navigating to "https://staging.hami.care/auth/login", waiting until "load"
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:259)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:130)
+	... 48 more
+]]></failure>
+  </testcase>
+  <testcase name="navigateToSubscriptions" classname="com.hami.care.tests.SubscriptionPlansTest" time="4.347">
+    <failure message="Error {&#10;  message=&apos;net::ERR_INTERNET_DISCONNECTED at https://staging.hami.care/auth/login&#10;  name=&apos;Error&#10;  stack=&apos;Error: net::ERR_INTERNET_DISCONNECTED at https://staging.hami.care/auth/login&#10;    at FrameSession._navigate (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\chromium\crPage.js:512:35)&#10;    at async Frame._gotoAction (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:540:28)&#10;}&#10;Call log:&#10;-   - navigating to &quot;https://staging.hami.care/auth/login&quot;, waiting until &quot;load&quot;&#10;" type="com.microsoft.playwright.PlaywrightException"><![CDATA[com.microsoft.playwright.PlaywrightException: 
+Error {
+  message='net::ERR_INTERNET_DISCONNECTED at https://staging.hami.care/auth/login
+  name='Error
+  stack='Error: net::ERR_INTERNET_DISCONNECTED at https://staging.hami.care/auth/login
+    at FrameSession._navigate (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\chromium\crPage.js:512:35)
+    at async Frame._gotoAction (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:540:28)
+}
+Call log:
+-   - navigating to "https://staging.hami.care/auth/login", waiting until "load"
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:56)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:132)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:118)
+	at com.microsoft.playwright.impl.FrameImpl.navigateImpl(FrameImpl.java:463)
+	at com.microsoft.playwright.impl.PageImpl.lambda$navigate$47(PageImpl.java:943)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:97)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:943)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:42)
+	at com.microsoft.playwright.Page.navigate(Page.java:5474)
+	at com.hami.care.pages.BasePage.navigateTo(BasePage.java:19)
+	at com.hami.care.pages.LoginPage.open(LoginPage.java:27)
+	at com.hami.care.base.BaseTest.loginAsAdmin(BaseTest.java:41)
+	at com.hami.care.tests.SubscriptionPlansTest.navigateToSubscriptions(SubscriptionPlansTest.java:17)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:583)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: com.microsoft.playwright.impl.DriverException: Error {
+  message='net::ERR_INTERNET_DISCONNECTED at https://staging.hami.care/auth/login
+  name='Error
+  stack='Error: net::ERR_INTERNET_DISCONNECTED at https://staging.hami.care/auth/login
+    at FrameSession._navigate (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\chromium\crPage.js:512:35)
+    at async Frame._gotoAction (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:540:28)
+}
+Call log:
+-   - navigating to "https://staging.hami.care/auth/login", waiting until "load"
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:259)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:130)
+	... 48 more
+]]></failure>
+  </testcase>
+  <testcase name="navigateToSubscriptions" classname="com.hami.care.tests.SubscriptionPlansTest" time="4.547">
+    <failure message="Error {&#10;  message=&apos;net::ERR_INTERNET_DISCONNECTED at https://staging.hami.care/auth/login&#10;  name=&apos;Error&#10;  stack=&apos;Error: net::ERR_INTERNET_DISCONNECTED at https://staging.hami.care/auth/login&#10;    at FrameSession._navigate (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\chromium\crPage.js:512:35)&#10;    at runNextTicks (node:internal/process/task_queues:65:5)&#10;    at process.processImmediate (node:internal/timers:459:9)&#10;    at async Frame._gotoAction (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:540:28)&#10;}&#10;Call log:&#10;-   - navigating to &quot;https://staging.hami.care/auth/login&quot;, waiting until &quot;load&quot;&#10;" type="com.microsoft.playwright.PlaywrightException"><![CDATA[com.microsoft.playwright.PlaywrightException: 
+Error {
+  message='net::ERR_INTERNET_DISCONNECTED at https://staging.hami.care/auth/login
+  name='Error
+  stack='Error: net::ERR_INTERNET_DISCONNECTED at https://staging.hami.care/auth/login
+    at FrameSession._navigate (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\chromium\crPage.js:512:35)
+    at runNextTicks (node:internal/process/task_queues:65:5)
+    at process.processImmediate (node:internal/timers:459:9)
+    at async Frame._gotoAction (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:540:28)
+}
+Call log:
+-   - navigating to "https://staging.hami.care/auth/login", waiting until "load"
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:56)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:132)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:118)
+	at com.microsoft.playwright.impl.FrameImpl.navigateImpl(FrameImpl.java:463)
+	at com.microsoft.playwright.impl.PageImpl.lambda$navigate$47(PageImpl.java:943)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:97)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:943)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:42)
+	at com.microsoft.playwright.Page.navigate(Page.java:5474)
+	at com.hami.care.pages.BasePage.navigateTo(BasePage.java:19)
+	at com.hami.care.pages.LoginPage.open(LoginPage.java:27)
+	at com.hami.care.base.BaseTest.loginAsAdmin(BaseTest.java:41)
+	at com.hami.care.tests.SubscriptionPlansTest.navigateToSubscriptions(SubscriptionPlansTest.java:17)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:583)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: com.microsoft.playwright.impl.DriverException: Error {
+  message='net::ERR_INTERNET_DISCONNECTED at https://staging.hami.care/auth/login
+  name='Error
+  stack='Error: net::ERR_INTERNET_DISCONNECTED at https://staging.hami.care/auth/login
+    at FrameSession._navigate (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\chromium\crPage.js:512:35)
+    at runNextTicks (node:internal/process/task_queues:65:5)
+    at process.processImmediate (node:internal/timers:459:9)
+    at async Frame._gotoAction (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:540:28)
+}
+Call log:
+-   - navigating to "https://staging.hami.care/auth/login", waiting until "load"
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:259)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:130)
+	... 48 more
+]]></failure>
+  </testcase>
+  <testcase name="verifySearchAndFilterPlans" classname="com.hami.care.tests.SubscriptionPlansTest" time="0.0">
+    <skipped message="Error {&#10;  message=&apos;Timeout 15000ms exceeded.&#10;  name=&apos;TimeoutError&#10;  stack=&apos;TimeoutError: Timeout 15000ms exceeded.&#10;    at ProgressController.run (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\progress.js:75:26)&#10;    at Frame.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:521:23)&#10;    at FrameDispatcher.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\frameDispatcher.js:82:119)&#10;    at FrameDispatcher._handleCommand (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:94:40)&#10;    at DispatcherConnection.dispatch (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:361:39)&#10;}&#10;Call log:&#10;-   - navigating to &quot;https://staging.hami.care/auth/login&quot;, waiting until &quot;load&quot;&#10;"/>
+  </testcase>
+  <testcase name="verifyCreatePlanEmptyRequiredFieldsBlocked" classname="com.hami.care.tests.SubscriptionPlansTest" time="0.0">
+    <skipped message="Error {&#10;  message=&apos;Timeout 15000ms exceeded.&#10;  name=&apos;TimeoutError&#10;  stack=&apos;TimeoutError: Timeout 15000ms exceeded.&#10;    at ProgressController.run (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\progress.js:75:26)&#10;    at Frame.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:521:23)&#10;    at FrameDispatcher.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\frameDispatcher.js:82:119)&#10;    at FrameDispatcher._handleCommand (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:94:40)&#10;    at DispatcherConnection.dispatch (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:361:39)&#10;}&#10;Call log:&#10;-   - navigating to &quot;https://staging.hami.care/auth/login&quot;, waiting until &quot;load&quot;&#10;"/>
+  </testcase>
+  <testcase name="verifyCreatePlanNegativePriceRejected" classname="com.hami.care.tests.SubscriptionPlansTest" time="0.0">
+    <skipped message="Error {&#10;  message=&apos;Timeout 15000ms exceeded.&#10;  name=&apos;TimeoutError&#10;  stack=&apos;TimeoutError: Timeout 15000ms exceeded.&#10;    at ProgressController.run (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\progress.js:75:26)&#10;    at Frame.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:521:23)&#10;    at FrameDispatcher.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\frameDispatcher.js:82:119)&#10;    at FrameDispatcher._handleCommand (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:94:40)&#10;    at DispatcherConnection.dispatch (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:361:39)&#10;}&#10;Call log:&#10;-   - navigating to &quot;https://staging.hami.care/auth/login&quot;, waiting until &quot;load&quot;&#10;"/>
+  </testcase>
+  <testcase name="verifyCreatePlanDiscountExceedingPriceRejected" classname="com.hami.care.tests.SubscriptionPlansTest" time="0.0">
+    <skipped message="Error {&#10;  message=&apos;Timeout 15000ms exceeded.&#10;  name=&apos;TimeoutError&#10;  stack=&apos;TimeoutError: Timeout 15000ms exceeded.&#10;    at ProgressController.run (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\progress.js:75:26)&#10;    at Frame.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:521:23)&#10;    at FrameDispatcher.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\frameDispatcher.js:82:119)&#10;    at FrameDispatcher._handleCommand (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:94:40)&#10;    at DispatcherConnection.dispatch (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:361:39)&#10;}&#10;Call log:&#10;-   - navigating to &quot;https://staging.hami.care/auth/login&quot;, waiting until &quot;load&quot;&#10;"/>
+  </testcase>
+  <testcase name="verifyCreatePlanZeroDurationRejected" classname="com.hami.care.tests.SubscriptionPlansTest" time="0.0">
+    <skipped message="Error {&#10;  message=&apos;Timeout 15000ms exceeded.&#10;  name=&apos;TimeoutError&#10;  stack=&apos;TimeoutError: Timeout 15000ms exceeded.&#10;    at ProgressController.run (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\progress.js:75:26)&#10;    at Frame.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:521:23)&#10;    at FrameDispatcher.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\frameDispatcher.js:82:119)&#10;    at FrameDispatcher._handleCommand (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:94:40)&#10;    at DispatcherConnection.dispatch (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:361:39)&#10;}&#10;Call log:&#10;-   - navigating to &quot;https://staging.hami.care/auth/login&quot;, waiting until &quot;load&quot;&#10;"/>
+  </testcase>
+  <testcase name="verifyEditPlanEmptyNameRejected" classname="com.hami.care.tests.SubscriptionPlansTest" time="0.0">
+    <skipped message="Error {&#10;  message=&apos;Timeout 15000ms exceeded.&#10;  name=&apos;TimeoutError&#10;  stack=&apos;TimeoutError: Timeout 15000ms exceeded.&#10;    at ProgressController.run (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\progress.js:75:26)&#10;    at Frame.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:521:23)&#10;    at FrameDispatcher.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\frameDispatcher.js:82:119)&#10;    at FrameDispatcher._handleCommand (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:94:40)&#10;    at DispatcherConnection.dispatch (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:361:39)&#10;}&#10;Call log:&#10;-   - navigating to &quot;https://staging.hami.care/auth/login&quot;, waiting until &quot;load&quot;&#10;"/>
+  </testcase>
+  <testcase name="verifyCancelCreateAndCancelEdit" classname="com.hami.care.tests.SubscriptionPlansTest" time="0.0">
+    <skipped message="Error {&#10;  message=&apos;Timeout 15000ms exceeded.&#10;  name=&apos;TimeoutError&#10;  stack=&apos;TimeoutError: Timeout 15000ms exceeded.&#10;    at ProgressController.run (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\progress.js:75:26)&#10;    at Frame.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:521:23)&#10;    at FrameDispatcher.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\frameDispatcher.js:82:119)&#10;    at FrameDispatcher._handleCommand (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:94:40)&#10;    at DispatcherConnection.dispatch (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:361:39)&#10;}&#10;Call log:&#10;-   - navigating to &quot;https://staging.hami.care/auth/login&quot;, waiting until &quot;load&quot;&#10;"/>
+  </testcase>
+  <testcase name="verifyCreatePlanBoundaryMinimumValues" classname="com.hami.care.tests.SubscriptionPlansTest" time="0.0">
+    <skipped message="Error {&#10;  message=&apos;Timeout 15000ms exceeded.&#10;  name=&apos;TimeoutError&#10;  stack=&apos;TimeoutError: Timeout 15000ms exceeded.&#10;    at ProgressController.run (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\progress.js:75:26)&#10;    at Frame.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:521:23)&#10;    at FrameDispatcher.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\frameDispatcher.js:82:119)&#10;    at FrameDispatcher._handleCommand (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:94:40)&#10;    at DispatcherConnection.dispatch (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:361:39)&#10;}&#10;Call log:&#10;-   - navigating to &quot;https://staging.hami.care/auth/login&quot;, waiting until &quot;load&quot;&#10;"/>
+  </testcase>
+  <testcase name="verifySpecialCharactersAndLongDescription" classname="com.hami.care.tests.SubscriptionPlansTest" time="0.0">
+    <skipped message="Error {&#10;  message=&apos;Timeout 15000ms exceeded.&#10;  name=&apos;TimeoutError&#10;  stack=&apos;TimeoutError: Timeout 15000ms exceeded.&#10;    at ProgressController.run (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\progress.js:75:26)&#10;    at Frame.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:521:23)&#10;    at FrameDispatcher.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\frameDispatcher.js:82:119)&#10;    at FrameDispatcher._handleCommand (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:94:40)&#10;    at DispatcherConnection.dispatch (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:361:39)&#10;}&#10;Call log:&#10;-   - navigating to &quot;https://staging.hami.care/auth/login&quot;, waiting until &quot;load&quot;&#10;"/>
+  </testcase>
+  <testcase name="verifyDuplicatePlanNameHandling" classname="com.hami.care.tests.SubscriptionPlansTest" time="0.0">
+    <skipped message="Error {&#10;  message=&apos;Timeout 15000ms exceeded.&#10;  name=&apos;TimeoutError&#10;  stack=&apos;TimeoutError: Timeout 15000ms exceeded.&#10;    at ProgressController.run (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\progress.js:75:26)&#10;    at Frame.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:521:23)&#10;    at FrameDispatcher.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\frameDispatcher.js:82:119)&#10;    at FrameDispatcher._handleCommand (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:94:40)&#10;    at DispatcherConnection.dispatch (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:361:39)&#10;}&#10;Call log:&#10;-   - navigating to &quot;https://staging.hami.care/auth/login&quot;, waiting until &quot;load&quot;&#10;"/>
+  </testcase>
+  <testcase name="verifyToggleStatusAndPopularInEdit" classname="com.hami.care.tests.SubscriptionPlansTest" time="0.0">
+    <skipped message="Error {&#10;  message=&apos;Timeout 15000ms exceeded.&#10;  name=&apos;TimeoutError&#10;  stack=&apos;TimeoutError: Timeout 15000ms exceeded.&#10;    at ProgressController.run (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\progress.js:75:26)&#10;    at Frame.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:521:23)&#10;    at FrameDispatcher.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\frameDispatcher.js:82:119)&#10;    at FrameDispatcher._handleCommand (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:94:40)&#10;    at DispatcherConnection.dispatch (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:361:39)&#10;}&#10;Call log:&#10;-   - navigating to &quot;https://staging.hami.care/auth/login&quot;, waiting until &quot;load&quot;&#10;"/>
+  </testcase>
+</testsuite>

@@ -1,0 +1,24 @@
+# Created at 2026-11-19T12:08:20.460
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream 'Downloading Chromium Headless Shell 131.0.6778.33 (playwright build v1148)[2m from https://playwright.azureedge.net/builds/chromium/1148/chromium-headless-shell-win64.zip[22m'.
+
+# Created at 2026-11-19T12:08:30.871
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '|                                                                                |   0% of 87.7 MiB'.
+
+# Created at 2026-11-19T12:08:49.808
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '|■■■■■■■■                                                                        |  10% of 87.7 MiB'.
+
+# Created at 2026-11-19T12:08:51.371
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream 'Downloading Chromium Headless Shell 131.0.6778.33 (playwright build v1148)[2m from https://playwright-akamai.azureedge.net/builds/chromium/1148/chromium-headless-shell-win64.zip[22m'.
+
+# Created at 2026-11-19T12:09:16.639
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: EXIT
+java.io.EOFException
+	at org.apache.maven.surefire.api.stream.AbstractStreamDecoder.read(AbstractStreamDecoder.java:444)
+	at org.apache.maven.surefire.api.stream.AbstractStreamDecoder.read(AbstractStreamDecoder.java:419)
+	at org.apache.maven.surefire.api.stream.AbstractStreamDecoder.readMessageType(AbstractStreamDecoder.java:116)
+	at org.apache.maven.surefire.booter.stream.CommandDecoder.decode(CommandDecoder.java:77)
+	at org.apache.maven.surefire.booter.spi.CommandChannelDecoder.decode(CommandChannelDecoder.java:60)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:290)
+	at java.base/java.lang.Thread.run(Thread.java:1527)
+
+

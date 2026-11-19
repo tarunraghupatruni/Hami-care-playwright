@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Hami Care Admin Staging Suite" verbose="1">
+    <test name="Hami Care E2E POM Suite">
+        <classes>
+            <class name="com.hami.care.tests.LoginTest"/>
+            <class name="com.hami.care.tests.UsersTest"/>
+            <class name="com.hami.care.tests.DoctorApplicationsTest"/>
+            <class name="com.hami.care.tests.ChildrenEldersTest"/>
+            <class name="com.hami.care.tests.SubscriptionPlansTest"/>
+        </classes>
+    </test>
+</suite>

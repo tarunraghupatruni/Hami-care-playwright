@@ -1,0 +1,1319 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Surefire_suite" class="navigator-link">
+              <span class="suite-name border-failed">Surefire suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Surefire_suite" class="navigator-link ">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Surefire_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Surefire_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Surefire_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Surefire_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Surefire_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Surefire_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">14 methods, 3 failed,  11 skipped,  </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods failed suite-Surefire_suite"> (hide)</a> <!-- hide-methods failed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods failed suite-Surefire_suite"> (show)</a> <!-- show-methods failed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Surefire_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.hami.care.tests.SubscriptionPlansTest" class="method navigator-link" hash-for-method="verifyCreateAndEditActivePopularPlan">verifyCreateAndEditActivePopularPlan</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.hami.care.tests.SubscriptionPlansTest" class="method navigator-link" hash-for-method="verifyCreateInactiveNonPopularPlanWithZeroDiscount">verifyCreateInactiveNonPopularPlanWithZeroDiscount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.hami.care.tests.SubscriptionPlansTest" class="method navigator-link" hash-for-method="verifySubscriptionManagementPage">verifySubscriptionManagementPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Surefire_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods skipped suite-Surefire_suite"> (hide)</a> <!-- hide-methods skipped suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods skipped suite-Surefire_suite"> (show)</a> <!-- show-methods skipped suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Surefire_suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.hami.care.tests.SubscriptionPlansTest" class="method navigator-link" hash-for-method="verifyCancelCreateAndCancelEdit">verifyCancelCreateAndCancelEdit</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.hami.care.tests.SubscriptionPlansTest" class="method navigator-link" hash-for-method="verifyCreatePlanBoundaryMinimumValues">verifyCreatePlanBoundaryMinimumValues</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.hami.care.tests.SubscriptionPlansTest" class="method navigator-link" hash-for-method="verifyCreatePlanDiscountExceedingPriceRejected">verifyCreatePlanDiscountExceedingPriceRejected</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.hami.care.tests.SubscriptionPlansTest" class="method navigator-link" hash-for-method="verifyCreatePlanEmptyRequiredFieldsBlocked">verifyCreatePlanEmptyRequiredFieldsBlocked</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.hami.care.tests.SubscriptionPlansTest" class="method navigator-link" hash-for-method="verifyCreatePlanNegativePriceRejected">verifyCreatePlanNegativePriceRejected</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.hami.care.tests.SubscriptionPlansTest" class="method navigator-link" hash-for-method="verifyCreatePlanZeroDurationRejected">verifyCreatePlanZeroDurationRejected</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.hami.care.tests.SubscriptionPlansTest" class="method navigator-link" hash-for-method="verifyDuplicatePlanNameHandling">verifyDuplicatePlanNameHandling</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.hami.care.tests.SubscriptionPlansTest" class="method navigator-link" hash-for-method="verifyEditPlanEmptyNameRejected">verifyEditPlanEmptyNameRejected</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.hami.care.tests.SubscriptionPlansTest" class="method navigator-link" hash-for-method="verifySearchAndFilterPlans">verifySearchAndFilterPlans</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.hami.care.tests.SubscriptionPlansTest" class="method navigator-link" hash-for-method="verifySpecialCharactersAndLongDescription">verifySpecialCharactersAndLongDescription</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.hami.care.tests.SubscriptionPlansTest" class="method navigator-link" hash-for-method="verifyToggleStatusAndPopularInEdit">verifyToggleStatusAndPopularInEdit</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Surefire_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.hami.care.tests.SubscriptionPlansTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCreateAndEditActivePopularPlan">
+                  </a> <!-- verifyCreateAndEditActivePopularPlan -->
+                  <span class="method-name">verifyCreateAndEditActivePopularPlan</span>
+                  <div class="stack-trace">com.microsoft.playwright.TimeoutError: Error {
+  message=&apos;Timeout 15000ms exceeded.
+  name=&apos;TimeoutError
+  stack=&apos;TimeoutError: Timeout 15000ms exceeded.
+    at ProgressController.run (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\progress.js:75:26)
+    at Frame.click (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:1022:23)
+    at FrameDispatcher.click (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\frameDispatcher.js:158:30)
+    at FrameDispatcher._handleCommand (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+-   - waiting for getByText(&quot;+ Add Subscription&quot;)
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:52)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:132)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:118)
+	at com.microsoft.playwright.impl.FrameImpl.clickImpl(FrameImpl.java:252)
+	at com.microsoft.playwright.impl.FrameImpl.lambda$click$8(FrameImpl.java:243)
+	at com.microsoft.playwright.impl.LoggingSupport.lambda$withLogging$0(LoggingSupport.java:36)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:97)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:35)
+	at com.microsoft.playwright.impl.FrameImpl.click(FrameImpl.java:243)
+	at com.microsoft.playwright.impl.LocatorImpl.click(LocatorImpl.java:175)
+	at com.microsoft.playwright.Locator.click(Locator.java:2493)
+	at com.hami.care.pages.SubscriptionPlansPage.clickAddSubscription(SubscriptionPlansPage.java:83)
+	at com.hami.care.tests.SubscriptionPlansTest.verifyCreateAndEditActivePopularPlan(SubscriptionPlansTest.java:43)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+Caused by: com.microsoft.playwright.TimeoutError: Error {
+  message=&apos;Timeout 15000ms exceeded.
+  name=&apos;TimeoutError
+  stack=&apos;TimeoutError: Timeout 15000ms exceeded.
+    at ProgressController.run (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\progress.js:75:26)
+    at Frame.click (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:1022:23)
+    at FrameDispatcher.click (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\frameDispatcher.js:158:30)
+    at FrameDispatcher._handleCommand (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+-   - waiting for getByText(&quot;+ Add Subscription&quot;)
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:254)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:130)
+	... 44 more
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(TC_SUB_02 & TC_SUB_04: Create Active+Popular plan, verify listing, and edit values)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCreateInactiveNonPopularPlanWithZeroDiscount">
+                  </a> <!-- verifyCreateInactiveNonPopularPlanWithZeroDiscount -->
+                  <span class="method-name">verifyCreateInactiveNonPopularPlanWithZeroDiscount</span>
+                  <div class="stack-trace">com.microsoft.playwright.TimeoutError: Error {
+  message=&apos;Timeout 15000ms exceeded.
+  name=&apos;TimeoutError
+  stack=&apos;TimeoutError: Timeout 15000ms exceeded.
+    at ProgressController.run (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\progress.js:75:26)
+    at Frame.click (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:1022:23)
+    at FrameDispatcher.click (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\frameDispatcher.js:158:30)
+    at FrameDispatcher._handleCommand (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+-   - waiting for getByText(&quot;+ Add Subscription&quot;)
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:52)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:132)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:118)
+	at com.microsoft.playwright.impl.FrameImpl.clickImpl(FrameImpl.java:252)
+	at com.microsoft.playwright.impl.FrameImpl.lambda$click$8(FrameImpl.java:243)
+	at com.microsoft.playwright.impl.LoggingSupport.lambda$withLogging$0(LoggingSupport.java:36)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:97)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:35)
+	at com.microsoft.playwright.impl.FrameImpl.click(FrameImpl.java:243)
+	at com.microsoft.playwright.impl.LocatorImpl.click(LocatorImpl.java:175)
+	at com.microsoft.playwright.Locator.click(Locator.java:2493)
+	at com.hami.care.pages.SubscriptionPlansPage.clickAddSubscription(SubscriptionPlansPage.java:83)
+	at com.hami.care.tests.SubscriptionPlansTest.verifyCreateInactiveNonPopularPlanWithZeroDiscount(SubscriptionPlansTest.java:87)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+Caused by: com.microsoft.playwright.TimeoutError: Error {
+  message=&apos;Timeout 15000ms exceeded.
+  name=&apos;TimeoutError
+  stack=&apos;TimeoutError: Timeout 15000ms exceeded.
+    at ProgressController.run (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\progress.js:75:26)
+    at Frame.click (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:1022:23)
+    at FrameDispatcher.click (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\frameDispatcher.js:158:30)
+    at FrameDispatcher._handleCommand (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+-   - waiting for getByText(&quot;+ Add Subscription&quot;)
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:254)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:130)
+	... 44 more
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(TC_SUB_03: Create Inactive + Non-Popular plan with zero discount)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySubscriptionManagementPage">
+                  </a> <!-- verifySubscriptionManagementPage -->
+                  <span class="method-name">verifySubscriptionManagementPage</span>
+                  <div class="stack-trace">java.lang.AssertionError: Subscription Management page should load expected [true] but found [false]
+	at com.hami.care.tests.SubscriptionPlansTest.verifySubscriptionManagementPage(SubscriptionPlansTest.java:29)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(TC_SUB_01: Verify Subscription Management page and columns)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.hami.care.tests.SubscriptionPlansTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCancelCreateAndCancelEdit">
+                  </a> <!-- verifyCancelCreateAndCancelEdit -->
+                  <span class="method-name">verifyCancelCreateAndCancelEdit</span>
+                  <div class="stack-trace">com.microsoft.playwright.TimeoutError: Error {
+  message=&apos;Timeout 15000ms exceeded.
+  name=&apos;TimeoutError
+  stack=&apos;TimeoutError: Timeout 15000ms exceeded.
+    at ProgressController.run (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\progress.js:75:26)
+    at Frame.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:521:23)
+    at FrameDispatcher.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\frameDispatcher.js:82:119)
+    at FrameDispatcher._handleCommand (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+-   - navigating to &quot;https://staging.hami.care/auth/login&quot;, waiting until &quot;load&quot;
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:52)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:132)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:118)
+	at com.microsoft.playwright.impl.FrameImpl.navigateImpl(FrameImpl.java:463)
+	at com.microsoft.playwright.impl.PageImpl.lambda$navigate$47(PageImpl.java:943)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:97)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:943)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:42)
+	at com.microsoft.playwright.Page.navigate(Page.java:5474)
+	at com.hami.care.pages.BasePage.navigateTo(BasePage.java:19)
+	at com.hami.care.pages.LoginPage.open(LoginPage.java:27)
+	at com.hami.care.base.BaseTest.loginAsAdmin(BaseTest.java:41)
+	at com.hami.care.tests.SubscriptionPlansTest.navigateToSubscriptions(SubscriptionPlansTest.java:17)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+Caused by: com.microsoft.playwright.TimeoutError: Error {
+  message=&apos;Timeout 15000ms exceeded.
+  name=&apos;TimeoutError
+  stack=&apos;TimeoutError: Timeout 15000ms exceeded.
+    at ProgressController.run (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\progress.js:75:26)
+    at Frame.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:521:23)
+    at FrameDispatcher.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\frameDispatcher.js:82:119)
+    at FrameDispatcher._handleCommand (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+-   - navigating to &quot;https://staging.hami.care/auth/login&quot;, waiting until &quot;load&quot;
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:254)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:130)
+	... 48 more
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(TC_SUB_11: Cancel Create and Cancel Edit do not persist changes)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCreatePlanBoundaryMinimumValues">
+                  </a> <!-- verifyCreatePlanBoundaryMinimumValues -->
+                  <span class="method-name">verifyCreatePlanBoundaryMinimumValues</span>
+                  <div class="stack-trace">com.microsoft.playwright.TimeoutError: Error {
+  message=&apos;Timeout 15000ms exceeded.
+  name=&apos;TimeoutError
+  stack=&apos;TimeoutError: Timeout 15000ms exceeded.
+    at ProgressController.run (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\progress.js:75:26)
+    at Frame.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:521:23)
+    at FrameDispatcher.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\frameDispatcher.js:82:119)
+    at FrameDispatcher._handleCommand (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+-   - navigating to &quot;https://staging.hami.care/auth/login&quot;, waiting until &quot;load&quot;
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:52)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:132)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:118)
+	at com.microsoft.playwright.impl.FrameImpl.navigateImpl(FrameImpl.java:463)
+	at com.microsoft.playwright.impl.PageImpl.lambda$navigate$47(PageImpl.java:943)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:97)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:943)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:42)
+	at com.microsoft.playwright.Page.navigate(Page.java:5474)
+	at com.hami.care.pages.BasePage.navigateTo(BasePage.java:19)
+	at com.hami.care.pages.LoginPage.open(LoginPage.java:27)
+	at com.hami.care.base.BaseTest.loginAsAdmin(BaseTest.java:41)
+	at com.hami.care.tests.SubscriptionPlansTest.navigateToSubscriptions(SubscriptionPlansTest.java:17)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+Caused by: com.microsoft.playwright.TimeoutError: Error {
+  message=&apos;Timeout 15000ms exceeded.
+  name=&apos;TimeoutError
+  stack=&apos;TimeoutError: Timeout 15000ms exceeded.
+    at ProgressController.run (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\progress.js:75:26)
+    at Frame.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:521:23)
+    at FrameDispatcher.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\frameDispatcher.js:82:119)
+    at FrameDispatcher._handleCommand (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+-   - navigating to &quot;https://staging.hami.care/auth/login&quot;, waiting until &quot;load&quot;
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:254)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:130)
+	... 48 more
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(TC_SUB_12: Boundary minimum valid values (Price=1, Discount=0, Duration=1, Max=1))                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCreatePlanDiscountExceedingPriceRejected">
+                  </a> <!-- verifyCreatePlanDiscountExceedingPriceRejected -->
+                  <span class="method-name">verifyCreatePlanDiscountExceedingPriceRejected</span>
+                  <div class="stack-trace">com.microsoft.playwright.TimeoutError: Error {
+  message=&apos;Timeout 15000ms exceeded.
+  name=&apos;TimeoutError
+  stack=&apos;TimeoutError: Timeout 15000ms exceeded.
+    at ProgressController.run (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\progress.js:75:26)
+    at Frame.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:521:23)
+    at FrameDispatcher.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\frameDispatcher.js:82:119)
+    at FrameDispatcher._handleCommand (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+-   - navigating to &quot;https://staging.hami.care/auth/login&quot;, waiting until &quot;load&quot;
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:52)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:132)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:118)
+	at com.microsoft.playwright.impl.FrameImpl.navigateImpl(FrameImpl.java:463)
+	at com.microsoft.playwright.impl.PageImpl.lambda$navigate$47(PageImpl.java:943)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:97)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:943)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:42)
+	at com.microsoft.playwright.Page.navigate(Page.java:5474)
+	at com.hami.care.pages.BasePage.navigateTo(BasePage.java:19)
+	at com.hami.care.pages.LoginPage.open(LoginPage.java:27)
+	at com.hami.care.base.BaseTest.loginAsAdmin(BaseTest.java:41)
+	at com.hami.care.tests.SubscriptionPlansTest.navigateToSubscriptions(SubscriptionPlansTest.java:17)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+Caused by: com.microsoft.playwright.TimeoutError: Error {
+  message=&apos;Timeout 15000ms exceeded.
+  name=&apos;TimeoutError
+  stack=&apos;TimeoutError: Timeout 15000ms exceeded.
+    at ProgressController.run (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\progress.js:75:26)
+    at Frame.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:521:23)
+    at FrameDispatcher.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\frameDispatcher.js:82:119)
+    at FrameDispatcher._handleCommand (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+-   - navigating to &quot;https://staging.hami.care/auth/login&quot;, waiting until &quot;load&quot;
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:254)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:130)
+	... 48 more
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(TC_SUB_08: Create plan rejects Discount Price greater than Price)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCreatePlanEmptyRequiredFieldsBlocked">
+                  </a> <!-- verifyCreatePlanEmptyRequiredFieldsBlocked -->
+                  <span class="method-name">verifyCreatePlanEmptyRequiredFieldsBlocked</span>
+                  <div class="stack-trace">com.microsoft.playwright.TimeoutError: Error {
+  message=&apos;Timeout 15000ms exceeded.
+  name=&apos;TimeoutError
+  stack=&apos;TimeoutError: Timeout 15000ms exceeded.
+    at ProgressController.run (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\progress.js:75:26)
+    at Frame.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:521:23)
+    at FrameDispatcher.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\frameDispatcher.js:82:119)
+    at FrameDispatcher._handleCommand (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+-   - navigating to &quot;https://staging.hami.care/auth/login&quot;, waiting until &quot;load&quot;
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:52)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:132)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:118)
+	at com.microsoft.playwright.impl.FrameImpl.navigateImpl(FrameImpl.java:463)
+	at com.microsoft.playwright.impl.PageImpl.lambda$navigate$47(PageImpl.java:943)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:97)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:943)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:42)
+	at com.microsoft.playwright.Page.navigate(Page.java:5474)
+	at com.hami.care.pages.BasePage.navigateTo(BasePage.java:19)
+	at com.hami.care.pages.LoginPage.open(LoginPage.java:27)
+	at com.hami.care.base.BaseTest.loginAsAdmin(BaseTest.java:41)
+	at com.hami.care.tests.SubscriptionPlansTest.navigateToSubscriptions(SubscriptionPlansTest.java:17)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+Caused by: com.microsoft.playwright.TimeoutError: Error {
+  message=&apos;Timeout 15000ms exceeded.
+  name=&apos;TimeoutError
+  stack=&apos;TimeoutError: Timeout 15000ms exceeded.
+    at ProgressController.run (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\progress.js:75:26)
+    at Frame.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:521:23)
+    at FrameDispatcher.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\frameDispatcher.js:82:119)
+    at FrameDispatcher._handleCommand (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+-   - navigating to &quot;https://staging.hami.care/auth/login&quot;, waiting until &quot;load&quot;
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:254)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:130)
+	... 48 more
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(TC_SUB_06: Create plan fails when required fields are empty)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCreatePlanNegativePriceRejected">
+                  </a> <!-- verifyCreatePlanNegativePriceRejected -->
+                  <span class="method-name">verifyCreatePlanNegativePriceRejected</span>
+                  <div class="stack-trace">com.microsoft.playwright.TimeoutError: Error {
+  message=&apos;Timeout 15000ms exceeded.
+  name=&apos;TimeoutError
+  stack=&apos;TimeoutError: Timeout 15000ms exceeded.
+    at ProgressController.run (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\progress.js:75:26)
+    at Frame.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:521:23)
+    at FrameDispatcher.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\frameDispatcher.js:82:119)
+    at FrameDispatcher._handleCommand (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+-   - navigating to &quot;https://staging.hami.care/auth/login&quot;, waiting until &quot;load&quot;
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:52)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:132)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:118)
+	at com.microsoft.playwright.impl.FrameImpl.navigateImpl(FrameImpl.java:463)
+	at com.microsoft.playwright.impl.PageImpl.lambda$navigate$47(PageImpl.java:943)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:97)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:943)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:42)
+	at com.microsoft.playwright.Page.navigate(Page.java:5474)
+	at com.hami.care.pages.BasePage.navigateTo(BasePage.java:19)
+	at com.hami.care.pages.LoginPage.open(LoginPage.java:27)
+	at com.hami.care.base.BaseTest.loginAsAdmin(BaseTest.java:41)
+	at com.hami.care.tests.SubscriptionPlansTest.navigateToSubscriptions(SubscriptionPlansTest.java:17)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+Caused by: com.microsoft.playwright.TimeoutError: Error {
+  message=&apos;Timeout 15000ms exceeded.
+  name=&apos;TimeoutError
+  stack=&apos;TimeoutError: Timeout 15000ms exceeded.
+    at ProgressController.run (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\progress.js:75:26)
+    at Frame.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:521:23)
+    at FrameDispatcher.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\frameDispatcher.js:82:119)
+    at FrameDispatcher._handleCommand (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+-   - navigating to &quot;https://staging.hami.care/auth/login&quot;, waiting until &quot;load&quot;
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:254)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:130)
+	... 48 more
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(TC_SUB_07: Create plan rejects negative Price)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCreatePlanZeroDurationRejected">
+                  </a> <!-- verifyCreatePlanZeroDurationRejected -->
+                  <span class="method-name">verifyCreatePlanZeroDurationRejected</span>
+                  <div class="stack-trace">com.microsoft.playwright.TimeoutError: Error {
+  message=&apos;Timeout 15000ms exceeded.
+  name=&apos;TimeoutError
+  stack=&apos;TimeoutError: Timeout 15000ms exceeded.
+    at ProgressController.run (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\progress.js:75:26)
+    at Frame.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:521:23)
+    at FrameDispatcher.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\frameDispatcher.js:82:119)
+    at FrameDispatcher._handleCommand (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+-   - navigating to &quot;https://staging.hami.care/auth/login&quot;, waiting until &quot;load&quot;
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:52)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:132)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:118)
+	at com.microsoft.playwright.impl.FrameImpl.navigateImpl(FrameImpl.java:463)
+	at com.microsoft.playwright.impl.PageImpl.lambda$navigate$47(PageImpl.java:943)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:97)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:943)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:42)
+	at com.microsoft.playwright.Page.navigate(Page.java:5474)
+	at com.hami.care.pages.BasePage.navigateTo(BasePage.java:19)
+	at com.hami.care.pages.LoginPage.open(LoginPage.java:27)
+	at com.hami.care.base.BaseTest.loginAsAdmin(BaseTest.java:41)
+	at com.hami.care.tests.SubscriptionPlansTest.navigateToSubscriptions(SubscriptionPlansTest.java:17)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+Caused by: com.microsoft.playwright.TimeoutError: Error {
+  message=&apos;Timeout 15000ms exceeded.
+  name=&apos;TimeoutError
+  stack=&apos;TimeoutError: Timeout 15000ms exceeded.
+    at ProgressController.run (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\progress.js:75:26)
+    at Frame.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:521:23)
+    at FrameDispatcher.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\frameDispatcher.js:82:119)
+    at FrameDispatcher._handleCommand (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+-   - navigating to &quot;https://staging.hami.care/auth/login&quot;, waiting until &quot;load&quot;
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:254)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:130)
+	... 48 more
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(TC_SUB_09: Create plan rejects zero Duration)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyDuplicatePlanNameHandling">
+                  </a> <!-- verifyDuplicatePlanNameHandling -->
+                  <span class="method-name">verifyDuplicatePlanNameHandling</span>
+                  <div class="stack-trace">com.microsoft.playwright.TimeoutError: Error {
+  message=&apos;Timeout 15000ms exceeded.
+  name=&apos;TimeoutError
+  stack=&apos;TimeoutError: Timeout 15000ms exceeded.
+    at ProgressController.run (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\progress.js:75:26)
+    at Frame.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:521:23)
+    at FrameDispatcher.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\frameDispatcher.js:82:119)
+    at FrameDispatcher._handleCommand (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+-   - navigating to &quot;https://staging.hami.care/auth/login&quot;, waiting until &quot;load&quot;
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:52)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:132)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:118)
+	at com.microsoft.playwright.impl.FrameImpl.navigateImpl(FrameImpl.java:463)
+	at com.microsoft.playwright.impl.PageImpl.lambda$navigate$47(PageImpl.java:943)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:97)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:943)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:42)
+	at com.microsoft.playwright.Page.navigate(Page.java:5474)
+	at com.hami.care.pages.BasePage.navigateTo(BasePage.java:19)
+	at com.hami.care.pages.LoginPage.open(LoginPage.java:27)
+	at com.hami.care.base.BaseTest.loginAsAdmin(BaseTest.java:41)
+	at com.hami.care.tests.SubscriptionPlansTest.navigateToSubscriptions(SubscriptionPlansTest.java:17)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+Caused by: com.microsoft.playwright.TimeoutError: Error {
+  message=&apos;Timeout 15000ms exceeded.
+  name=&apos;TimeoutError
+  stack=&apos;TimeoutError: Timeout 15000ms exceeded.
+    at ProgressController.run (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\progress.js:75:26)
+    at Frame.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:521:23)
+    at FrameDispatcher.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\frameDispatcher.js:82:119)
+    at FrameDispatcher._handleCommand (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+-   - navigating to &quot;https://staging.hami.care/auth/login&quot;, waiting until &quot;load&quot;
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:254)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:130)
+	... 48 more
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(TC_SUB_14: Duplicate Plan Name handling)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyEditPlanEmptyNameRejected">
+                  </a> <!-- verifyEditPlanEmptyNameRejected -->
+                  <span class="method-name">verifyEditPlanEmptyNameRejected</span>
+                  <div class="stack-trace">com.microsoft.playwright.TimeoutError: Error {
+  message=&apos;Timeout 15000ms exceeded.
+  name=&apos;TimeoutError
+  stack=&apos;TimeoutError: Timeout 15000ms exceeded.
+    at ProgressController.run (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\progress.js:75:26)
+    at Frame.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:521:23)
+    at FrameDispatcher.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\frameDispatcher.js:82:119)
+    at FrameDispatcher._handleCommand (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+-   - navigating to &quot;https://staging.hami.care/auth/login&quot;, waiting until &quot;load&quot;
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:52)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:132)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:118)
+	at com.microsoft.playwright.impl.FrameImpl.navigateImpl(FrameImpl.java:463)
+	at com.microsoft.playwright.impl.PageImpl.lambda$navigate$47(PageImpl.java:943)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:97)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:943)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:42)
+	at com.microsoft.playwright.Page.navigate(Page.java:5474)
+	at com.hami.care.pages.BasePage.navigateTo(BasePage.java:19)
+	at com.hami.care.pages.LoginPage.open(LoginPage.java:27)
+	at com.hami.care.base.BaseTest.loginAsAdmin(BaseTest.java:41)
+	at com.hami.care.tests.SubscriptionPlansTest.navigateToSubscriptions(SubscriptionPlansTest.java:17)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+Caused by: com.microsoft.playwright.TimeoutError: Error {
+  message=&apos;Timeout 15000ms exceeded.
+  name=&apos;TimeoutError
+  stack=&apos;TimeoutError: Timeout 15000ms exceeded.
+    at ProgressController.run (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\progress.js:75:26)
+    at Frame.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:521:23)
+    at FrameDispatcher.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\frameDispatcher.js:82:119)
+    at FrameDispatcher._handleCommand (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+-   - navigating to &quot;https://staging.hami.care/auth/login&quot;, waiting until &quot;load&quot;
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:254)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:130)
+	... 48 more
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(TC_SUB_10: Edit plan rejects empty Plan Name)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchAndFilterPlans">
+                  </a> <!-- verifySearchAndFilterPlans -->
+                  <span class="method-name">verifySearchAndFilterPlans</span>
+                  <div class="stack-trace">com.microsoft.playwright.TimeoutError: Error {
+  message=&apos;Timeout 15000ms exceeded.
+  name=&apos;TimeoutError
+  stack=&apos;TimeoutError: Timeout 15000ms exceeded.
+    at ProgressController.run (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\progress.js:75:26)
+    at Frame.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:521:23)
+    at FrameDispatcher.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\frameDispatcher.js:82:119)
+    at FrameDispatcher._handleCommand (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+-   - navigating to &quot;https://staging.hami.care/auth/login&quot;, waiting until &quot;load&quot;
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:52)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:132)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:118)
+	at com.microsoft.playwright.impl.FrameImpl.navigateImpl(FrameImpl.java:463)
+	at com.microsoft.playwright.impl.PageImpl.lambda$navigate$47(PageImpl.java:943)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:97)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:943)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:42)
+	at com.microsoft.playwright.Page.navigate(Page.java:5474)
+	at com.hami.care.pages.BasePage.navigateTo(BasePage.java:19)
+	at com.hami.care.pages.LoginPage.open(LoginPage.java:27)
+	at com.hami.care.base.BaseTest.loginAsAdmin(BaseTest.java:41)
+	at com.hami.care.tests.SubscriptionPlansTest.navigateToSubscriptions(SubscriptionPlansTest.java:17)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+Caused by: com.microsoft.playwright.TimeoutError: Error {
+  message=&apos;Timeout 15000ms exceeded.
+  name=&apos;TimeoutError
+  stack=&apos;TimeoutError: Timeout 15000ms exceeded.
+    at ProgressController.run (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\progress.js:75:26)
+    at Frame.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:521:23)
+    at FrameDispatcher.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\frameDispatcher.js:82:119)
+    at FrameDispatcher._handleCommand (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+-   - navigating to &quot;https://staging.hami.care/auth/login&quot;, waiting until &quot;load&quot;
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:254)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:130)
+	... 48 more
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(TC_SUB_05: Search and filter subscription plans by keyword and status)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySpecialCharactersAndLongDescription">
+                  </a> <!-- verifySpecialCharactersAndLongDescription -->
+                  <span class="method-name">verifySpecialCharactersAndLongDescription</span>
+                  <div class="stack-trace">com.microsoft.playwright.TimeoutError: Error {
+  message=&apos;Timeout 15000ms exceeded.
+  name=&apos;TimeoutError
+  stack=&apos;TimeoutError: Timeout 15000ms exceeded.
+    at ProgressController.run (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\progress.js:75:26)
+    at Frame.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:521:23)
+    at FrameDispatcher.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\frameDispatcher.js:82:119)
+    at FrameDispatcher._handleCommand (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+-   - navigating to &quot;https://staging.hami.care/auth/login&quot;, waiting until &quot;load&quot;
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:52)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:132)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:118)
+	at com.microsoft.playwright.impl.FrameImpl.navigateImpl(FrameImpl.java:463)
+	at com.microsoft.playwright.impl.PageImpl.lambda$navigate$47(PageImpl.java:943)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:97)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:943)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:42)
+	at com.microsoft.playwright.Page.navigate(Page.java:5474)
+	at com.hami.care.pages.BasePage.navigateTo(BasePage.java:19)
+	at com.hami.care.pages.LoginPage.open(LoginPage.java:27)
+	at com.hami.care.base.BaseTest.loginAsAdmin(BaseTest.java:41)
+	at com.hami.care.tests.SubscriptionPlansTest.navigateToSubscriptions(SubscriptionPlansTest.java:17)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+Caused by: com.microsoft.playwright.TimeoutError: Error {
+  message=&apos;Timeout 15000ms exceeded.
+  name=&apos;TimeoutError
+  stack=&apos;TimeoutError: Timeout 15000ms exceeded.
+    at ProgressController.run (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\progress.js:75:26)
+    at Frame.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:521:23)
+    at FrameDispatcher.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\frameDispatcher.js:82:119)
+    at FrameDispatcher._handleCommand (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+-   - navigating to &quot;https://staging.hami.care/auth/login&quot;, waiting until &quot;load&quot;
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:254)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:130)
+	... 48 more
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(TC_SUB_13: Special characters and long description handling)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyToggleStatusAndPopularInEdit">
+                  </a> <!-- verifyToggleStatusAndPopularInEdit -->
+                  <span class="method-name">verifyToggleStatusAndPopularInEdit</span>
+                  <div class="stack-trace">com.microsoft.playwright.TimeoutError: Error {
+  message=&apos;Timeout 15000ms exceeded.
+  name=&apos;TimeoutError
+  stack=&apos;TimeoutError: Timeout 15000ms exceeded.
+    at ProgressController.run (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\progress.js:75:26)
+    at Frame.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:521:23)
+    at FrameDispatcher.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\frameDispatcher.js:82:119)
+    at FrameDispatcher._handleCommand (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+-   - navigating to &quot;https://staging.hami.care/auth/login&quot;, waiting until &quot;load&quot;
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:52)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:132)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:118)
+	at com.microsoft.playwright.impl.FrameImpl.navigateImpl(FrameImpl.java:463)
+	at com.microsoft.playwright.impl.PageImpl.lambda$navigate$47(PageImpl.java:943)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:97)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:943)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:42)
+	at com.microsoft.playwright.Page.navigate(Page.java:5474)
+	at com.hami.care.pages.BasePage.navigateTo(BasePage.java:19)
+	at com.hami.care.pages.LoginPage.open(LoginPage.java:27)
+	at com.hami.care.base.BaseTest.loginAsAdmin(BaseTest.java:41)
+	at com.hami.care.tests.SubscriptionPlansTest.navigateToSubscriptions(SubscriptionPlansTest.java:17)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+Caused by: com.microsoft.playwright.TimeoutError: Error {
+  message=&apos;Timeout 15000ms exceeded.
+  name=&apos;TimeoutError
+  stack=&apos;TimeoutError: Timeout 15000ms exceeded.
+    at ProgressController.run (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\progress.js:75:26)
+    at Frame.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\frames.js:521:23)
+    at FrameDispatcher.goto (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\frameDispatcher.js:82:119)
+    at FrameDispatcher._handleCommand (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\Tarun\AppData\Local\Temp\playwright-java-3239239697268464137\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+-   - navigating to &quot;https://staging.hami.care/auth/login&quot;, waiting until &quot;load&quot;
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:254)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:130)
+	... 48 more
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(TC_SUB_15: Toggle Status (Active <-> Inactive) and Popular flag during Edit)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-skipped -->
+        </div> <!-- panel Surefire_suite -->
+        <div panel-name="test-xml-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Surefire suite&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Surefire test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.hami.care.tests.SubscriptionPlansTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Surefire test --&gt;
+&lt;/suite&gt; &lt;!-- Surefire suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Surefire test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Surefire_suite');
+function tableData_Surefire_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(14);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifyCreateAndEditActivePopularPlan')
+data.setCell(0, 2, 'com.hami.care.tests.SubscriptionPlansTest')
+data.setCell(0, 3, 15013);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyCreateInactiveNonPopularPlanWithZeroDiscount')
+data.setCell(1, 2, 'com.hami.care.tests.SubscriptionPlansTest')
+data.setCell(1, 3, 15013);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifySubscriptionManagementPage')
+data.setCell(2, 2, 'com.hami.care.tests.SubscriptionPlansTest')
+data.setCell(2, 3, 65);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifySearchAndFilterPlans')
+data.setCell(3, 2, 'com.hami.care.tests.SubscriptionPlansTest')
+data.setCell(3, 3, 2);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyCreatePlanZeroDurationRejected')
+data.setCell(4, 2, 'com.hami.care.tests.SubscriptionPlansTest')
+data.setCell(4, 3, 1);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyToggleStatusAndPopularInEdit')
+data.setCell(5, 2, 'com.hami.care.tests.SubscriptionPlansTest')
+data.setCell(5, 3, 1);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyCreatePlanEmptyRequiredFieldsBlocked')
+data.setCell(6, 2, 'com.hami.care.tests.SubscriptionPlansTest')
+data.setCell(6, 3, 0);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyCreatePlanBoundaryMinimumValues')
+data.setCell(7, 2, 'com.hami.care.tests.SubscriptionPlansTest')
+data.setCell(7, 3, 0);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyCreatePlanNegativePriceRejected')
+data.setCell(8, 2, 'com.hami.care.tests.SubscriptionPlansTest')
+data.setCell(8, 3, 0);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyEditPlanEmptyNameRejected')
+data.setCell(9, 2, 'com.hami.care.tests.SubscriptionPlansTest')
+data.setCell(9, 3, 0);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifyCreatePlanDiscountExceedingPriceRejected')
+data.setCell(10, 2, 'com.hami.care.tests.SubscriptionPlansTest')
+data.setCell(10, 3, 0);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verifyCancelCreateAndCancelEdit')
+data.setCell(11, 2, 'com.hami.care.tests.SubscriptionPlansTest')
+data.setCell(11, 3, 0);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'verifySpecialCharactersAndLongDescription')
+data.setCell(12, 2, 'com.hami.care.tests.SubscriptionPlansTest')
+data.setCell(12, 3, 0);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'verifyDuplicatePlanNameHandling')
+data.setCell(13, 2, 'com.hami.care.tests.SubscriptionPlansTest')
+data.setCell(13, 3, 0);
+window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 30 seconds</span>
+              <div id="times-div-Surefire_suite">
+              </div> <!-- times-div-Surefire_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.hami.care.tests.SubscriptionPlansTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">navigateToSubscriptions</span>
+                <span class="method-start">20241 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifySubscriptionManagementPage</span>
+                <span class="method-start">30751 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=verifySubscriptionManagementPage status=FAILURE method=SubscriptionPlansTest.verify...)</span>
+                <span class="method-start">30846 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">33869 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">navigateToSubscriptions</span>
+                <span class="method-start">36573 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyCreateAndEditActivePopularPlan</span>
+                <span class="method-start">47292 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=verifyCreateAndEditActivePopularPlan status=FAILURE method=SubscriptionPlansTest.ve...)</span>
+                <span class="method-start">62330 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">63707 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">navigateToSubscriptions</span>
+                <span class="method-start">66250 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyCreateInactiveNonPopularPlanWithZeroDiscount</span>
+                <span class="method-start">73840 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=verifyCreateInactiveNonPopularPlanWithZeroDiscount status=FAILURE method=Subscripti...)</span>
+                <span class="method-start">88858 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">91005 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">navigateToSubscriptions</span>
+                <span class="method-start">93480 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=verifySearchAndFilterPlans status=SKIP method=SubscriptionPlansTest.verifySearchAnd...)</span>
+                <span class="method-start">108543 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">109437 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">navigateToSubscriptions</span>
+                <span class="method-start">111834 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=verifyCreatePlanEmptyRequiredFieldsBlocked status=SKIP method=SubscriptionPlansTest...)</span>
+                <span class="method-start">126860 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">127554 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">navigateToSubscriptions</span>
+                <span class="method-start">130330 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=verifyCreatePlanNegativePriceRejected status=SKIP method=SubscriptionPlansTest.veri...)</span>
+                <span class="method-start">132382 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">133268 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">navigateToSubscriptions</span>
+                <span class="method-start">135865 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=verifyCreatePlanDiscountExceedingPriceRejected status=SKIP method=SubscriptionPlans...)</span>
+                <span class="method-start">143344 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">145138 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">navigateToSubscriptions</span>
+                <span class="method-start">148778 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=verifyCreatePlanZeroDurationRejected status=SKIP method=SubscriptionPlansTest.verif...)</span>
+                <span class="method-start">154762 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">172737 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">navigateToSubscriptions</span>
+                <span class="method-start">175999 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=verifyEditPlanEmptyNameRejected status=SKIP method=SubscriptionPlansTest.verifyEdit...)</span>
+                <span class="method-start">191022 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">195637 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">navigateToSubscriptions</span>
+                <span class="method-start">198302 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=verifyCancelCreateAndCancelEdit status=SKIP method=SubscriptionPlansTest.verifyCanc...)</span>
+                <span class="method-start">198384 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">199958 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">navigateToSubscriptions</span>
+                <span class="method-start">202309 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=verifyCreatePlanBoundaryMinimumValues status=SKIP method=SubscriptionPlansTest.veri...)</span>
+                <span class="method-start">202413 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">204223 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">navigateToSubscriptions</span>
+                <span class="method-start">206476 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=verifySpecialCharactersAndLongDescription status=SKIP method=SubscriptionPlansTest....)</span>
+                <span class="method-start">206565 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">208364 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">navigateToSubscriptions</span>
+                <span class="method-start">210829 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=verifyDuplicatePlanNameHandling status=SKIP method=SubscriptionPlansTest.verifyDupl...)</span>
+                <span class="method-start">210905 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">212868 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">navigateToSubscriptions</span>
+                <span class="method-start">215119 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=verifyToggleStatusAndPopularInEdit status=SKIP method=SubscriptionPlansTest.verifyT...)</span>
+                <span class="method-start">215454 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
